@@ -33,12 +33,12 @@ const SalesProofPopup = ({ show, onClose }: { show: boolean; onClose: () => void
   const [currentMessage, setCurrentMessage] = useState("")
 
   const salesMessages = [
-    "✅ Jessica from Austin unlocked a report 12 minutes ago",
-    "✅ Sarah recently viewed conversation history",
-    "✅ Michelle just accessed confidential photos",
-    "✅ Jennifer completed a full analysis right now",
-    "✅ Ashley gained access to the confidential report moments ago",
-    "✅ Rachel performed a complete verification right now",
+    "✅ Julia aus Berlin hat vor 12 Minuten einen Bericht freigeschaltet",
+    "✅ Sarah hat kürzlich den Gesprächsverlauf angesehen",
+    "✅ Michelle hat gerade auf vertrauliche Fotos zugegriffen",
+    "✅ Jennifer hat soeben eine vollständige Analyse abgeschlossen",
+    "✅ Laura hat vor wenigen Augenblicken Zugriff auf den vertraulichen Bericht erhalten",
+    "✅ Hannah hat soeben eine vollständige Verifizierung durchgeführt",
   ]
 
   useEffect(() => {
@@ -174,223 +174,39 @@ const femalePhotos4554 = [
 
 const maleNames = {
   "18-24": [
-    "Liam",
-    "Noah",
-    "Oliver",
-    "Elijah",
-    "James",
-    "William",
-    "Benjamin",
-    "Lucas",
-    "Henry",
-    "Theodore",
-    "Jackson",
-    "Levi",
-    "Samuel",
-    "Owen",
-    "Dylan",
-    "Grayson",
-    "Mason",
-    "Carter",
-    "Wyatt",
-    "Julian",
-    "Ezra",
-    "Asher",
-    "Hudson",
-    "Lincoln",
-    "Caleb",
+    "Leon", "Jonas", "Finn", "Elias", "Paul", "Ben", "Noah", "Luca", "Felix", "Julian",
+    "Lukas", "Maximilian", "Tim", "David", "Oskar"
   ],
   "25-34": [
-    "Alexander",
-    "Ethan",
-    "Michael",
-    "Daniel",
-    "Matthew",
-    "Joseph",
-    "Andrew",
-    "Christopher",
-    "Ryan",
-    "David",
-    "Joshua",
-    "Nicholas",
-    "Brandon",
-    "Justin",
-    "Tyler",
-    "Zachary",
-    "Nathan",
-    "Kyle",
-    "Aaron",
-    "Evan",
-    "Luke",
-    "Jacob",
-    "Cameron",
-    "Austin",
-    "Logan",
+    "Alexander", "Maximilian", "Daniel", "Christian", "Michael", "Sebastian", "Thomas", "Florian", "Philipp", "David",
+    "Andreas", "Jan", "Robert", "Martin", "Stefan"
   ],
   "35-44": [
-    "Robert",
-    "John",
-    "Brian",
-    "Kevin",
-    "Jeffrey",
-    "Thomas",
-    "Steven",
-    "Gary",
-    "Timothy",
-    "Eric",
-    "Paul",
-    "Ronald",
-    "Larry",
-    "Dennis",
-    "Frank",
-    "Alan",
-    "George",
-    "Douglas",
-    "Bruce",
-    "Craig",
-    "Philip",
-    "Wayne",
-    "Martin",
-    "Roger",
-    "Vincent",
+    "Stefan", "Andreas", "Christian", "Michael", "Thomas", "Markus", "Frank", "Matthias", "Jörg", "Martin",
+    "Peter", "Jens", "Dirk", "Torsten", "Sven"
   ],
   "45-54": [
-    "Mark",
-    "Richard",
-    "Kenneth",
-    "Scott",
-    "Anthony",
-    "Gregory",
-    "Stephen",
-    "Patrick",
-    "Sean",
-    "Jason",
-    "Donald",
-    "Charles",
-    "Edward",
-    "Walter",
-    "Jerry",
-    "Raymond",
-    "Harold",
-    "Carl",
-    "Arthur",
-    "Gerald",
-    "Lawrence",
-    "Albert",
-    "Louis",
-    "Ralph",
-    "Howard",
+    "Michael", "Thomas", "Andreas", "Stefan", "Christian", "Frank", "Peter", "Jörg", "Klaus", "Wolfgang",
+    "Manfred", "Bernd", "Uwe", "Ralf", "Helmut"
   ],
 }
 
 const femaleNames = {
   "18-24": [
-    "Olivia",
-    "Emma",
-    "Ava",
-    "Sophia",
-    "Isabella",
-    "Mia",
-    "Amelia",
-    "Harper",
-    "Evelyn",
-    "Abigail",
-    "Luna",
-    "Aria",
-    "Scarlett",
-    "Chloe",
-    "Penelope",
-    "Layla",
-    "Mila",
-    "Nora",
-    "Hazel",
-    "Zoey",
-    "Lily",
-    "Ellie",
-    "Violet",
-    "Grace",
-    "Hannah",
+    "Mia", "Hannah", "Emma", "Emilia", "Sophia", "Lena", "Anna", "Lea", "Marie", "Clara",
+    "Lina", "Laura", "Sophie", "Lilly", "Charlotte"
   ],
   "25-34": [
-    "Emily",
-    "Madison",
-    "Elizabeth",
-    "Chloe",
-    "Ella",
-    "Natalie",
-    "Samantha",
-    "Grace",
-    "Sarah",
-    "Jessica",
-    "Ashley",
-    "Lauren",
-    "Taylor",
-    "Kayla",
-    "Alexis",
-    "Victoria",
-    "Rachel",
-    "Anna",
-    "Sydney",
-    "Megan",
-    "Brittany",
-    "Kaitlyn",
-    "Jasmine",
-    "Morgan",
-    "Allison",
+    "Julia", "Anna", "Sarah", "Laura", "Christina", "Katharina", "Stefanie", "Vanessa", "Maria", "Lisa",
+    "Sandra", "Melanie", "Nicole", "Anja", "Katrin"
   ],
   "35-44": [
-    "Jennifer",
-    "Michelle",
-    "Lisa",
-    "Amy",
-    "Angela",
-    "Stephanie",
-    "Nicole",
-    "Melissa",
-    "Kimberly",
-    "Heather",
-    "Rebecca",
-    "Christine",
-    "Laura",
-    "Danielle",
-    "Tiffany",
-    "Erin",
-    "Kelly",
-    "Christina",
-    "Andrea",
-    "Sara",
-    "Julie",
-    "Tracy",
-    "Dawn",
-    "Wendy",
-    "Beth",
+    "Nicole", "Katrin", "Anja", "Sandra", "Melanie", "Stefanie", "Julia", "Simone", "Christine", "Sabine",
+    "Andrea", "Martina", "Susanne", "Claudia", "Birgit"
   ],
   "45-54": [
-    "Mary",
-    "Linda",
-    "Barbara",
-    "Susan",
-    "Margaret",
-    "Carol",
-    "Sandra",
-    "Nancy",
-    "Sharon",
-    "Donna",
-    "Patricia",
-    "Deborah",
-    "Karen",
-    "Diane",
-    "Cynthia",
-    "Pamela",
-    "Cheryl",
-    "Janet",
-    "Kathleen",
-    "Denise",
-    "Brenda",
-    "Lori",
-    "Joan",
-    "Judy",
-    "Cathy",
+    "Sabine", "Susanne", "Petra", "Martina", "Andrea", "Claudia", "Birgit", "Gabriele", "Karin", "Heike",
+    "Ingrid", "Monika", "Ursula", "Renate", "Gisela"
   ],
 }
 
@@ -405,9 +221,9 @@ export default function SigiloX() {
   const [profilePhoto, setProfilePhoto] = useState<string | null>(null)
   const [isPhotoPrivate, setIsPhotoPrivate] = useState(false)
   const [verificationProgress, setVerificationProgress] = useState(0)
-  const [verificationMessage, setVerificationMessage] = useState("Starting analysis...")
+  const [verificationMessage, setVerificationMessage] = useState("Analyse wird gestartet...")
   const [generatingProgress, setGeneratingProgress] = useState(0)
-  const [generatingMessage, setGeneratingMessage] = useState("Analyzing profile photos...")
+  const [generatingMessage, setGeneratingMessage] = useState("Profilfotos werden analysiert...")
   const [stepCompleted, setStepCompleted] = useState({
     profilePhotos: false,
     conversations: false,
@@ -430,148 +246,147 @@ export default function SigiloX() {
   const [isProfileModalOpen, setIsProfileModalOpen] = useState(false)
 
   const [selectedCountry, setSelectedCountry] = useState({
-    code: "+1",
-    name: "United States",
-    flag: "🇺🇸",
-    placeholder: "(555) 123-4567",
+    code: "+49",
+    name: "Deutschland",
+    flag: "🇩🇪",
+    placeholder: "1512 3456789",
   })
   const [showCountryDropdown, setShowCountryDropdown] = useState(false)
   const [countrySearch, setCountrySearch] = useState("")
-
-  const countries = [
-    { code: "+1", name: "United States", flag: "🇺🇸", placeholder: "(555) 123-4567" },
-    { code: "+1", name: "Canada", flag: "🇨🇦", placeholder: "(555) 123-4567" },
-    { code: "+44", name: "United Kingdom", flag: "🇬🇧", placeholder: "7911 123456" },
-    { code: "+33", name: "France", flag: "🇫🇷", placeholder: "6 12 34 56 78" },
-    { code: "+49", name: "Germany", flag: "🇩🇪", placeholder: "1512 3456789" },
-    { code: "+39", name: "Italy", flag: "🇮🇹", placeholder: "312 345 6789" },
-    { code: "+34", name: "Spain", flag: "🇪🇸", placeholder: "612 34 56 78" },
+    const countries = [
+    { code: "+1", name: "Vereinigte Staaten", flag: "🇺🇸", placeholder: "(555) 123-4567" },
+    { code: "+1", name: "Kanada", flag: "🇨🇦", placeholder: "(555) 123-4567" },
+    { code: "+44", name: "Vereinigtes Königreich", flag: "🇬🇧", placeholder: "7911 123456" },
+    { code: "+33", name: "Frankreich", flag: "🇫🇷", placeholder: "6 12 34 56 78" },
+    { code: "+49", name: "Deutschland", flag: "🇩🇪", placeholder: "1512 3456789" },
+    { code: "+39", name: "Italien", flag: "🇮🇹", placeholder: "312 345 6789" },
+    { code: "+34", name: "Spanien", flag: "🇪🇸", placeholder: "612 34 56 78" },
     { code: "+351", name: "Portugal", flag: "🇵🇹", placeholder: "912 345 678" },
-    { code: "+52", name: "Mexico", flag: "🇲🇽", placeholder: "55 1234 5678" },
-    { code: "+55", name: "Brazil", flag: "🇧🇷", placeholder: "(11) 99999-9999" },
-    { code: "+54", name: "Argentina", flag: "🇦🇷", placeholder: "11 1234-5678" },
+    { code: "+52", name: "Mexiko", flag: "🇲🇽", placeholder: "55 1234 5678" },
+    { code: "+55", name: "Brasilien", flag: "🇧🇷", placeholder: "(11) 99999-9999" },
+    { code: "+54", name: "Argentinien", flag: "🇦🇷", placeholder: "11 1234-5678" },
     { code: "+56", name: "Chile", flag: "🇨🇱", placeholder: "9 1234 5678" },
-    { code: "+57", name: "Colombia", flag: "🇨🇴", placeholder: "300 1234567" },
+    { code: "+57", name: "Kolumbien", flag: "🇨🇴", placeholder: "300 1234567" },
     { code: "+51", name: "Peru", flag: "🇵🇪", placeholder: "912 345 678" },
     { code: "+58", name: "Venezuela", flag: "🇻🇪", placeholder: "412-1234567" },
     { code: "+593", name: "Ecuador", flag: "🇪🇨", placeholder: "99 123 4567" },
     { code: "+595", name: "Paraguay", flag: "🇵🇾", placeholder: "961 123456" },
     { code: "+598", name: "Uruguay", flag: "🇺🇾", placeholder: "94 123 456" },
-    { code: "+591", name: "Bolivia", flag: "🇧🇴", placeholder: "71234567" },
+    { code: "+591", name: "Bolivien", flag: "🇧🇴", placeholder: "71234567" },
     { code: "+81", name: "Japan", flag: "🇯🇵", placeholder: "90-1234-5678" },
-    { code: "+82", name: "South Korea", flag: "🇰🇷", placeholder: "10-1234-5678" },
+    { code: "+82", name: "Südkorea", flag: "🇰🇷", placeholder: "10-1234-5678" },
     { code: "+86", name: "China", flag: "🇨🇳", placeholder: "138 0013 8000" },
-    { code: "+91", name: "India", flag: "🇮🇳", placeholder: "81234 56789" },
-    { code: "+61", name: "Australia", flag: "🇦🇺", placeholder: "412 345 678" },
-    { code: "+64", name: "New Zealand", flag: "🇳🇿", placeholder: "21 123 4567" },
-    { code: "+27", name: "South Africa", flag: "🇿🇦", placeholder: "71 123 4567" },
-    { code: "+20", name: "Egypt", flag: "🇪🇬", placeholder: "100 123 4567" },
+    { code: "+91", name: "Indien", flag: "🇮🇳", placeholder: "81234 56789" },
+    { code: "+61", name: "Australien", flag: "🇦🇺", placeholder: "412 345 678" },
+    { code: "+64", name: "Neuseeland", flag: "🇳🇿", placeholder: "21 123 4567" },
+    { code: "+27", name: "Südafrika", flag: "🇿🇦", placeholder: "71 123 4567" },
+    { code: "+20", name: "Ägypten", flag: "🇪🇬", placeholder: "100 123 4567" },
     { code: "+234", name: "Nigeria", flag: "🇳🇬", placeholder: "802 123 4567" },
-    { code: "+254", name: "Kenya", flag: "🇰🇪", placeholder: "712 123456" },
-    { code: "+971", name: "United Arab Emirates", flag: "🇦🇪", placeholder: "50 123 4567" },
-    { code: "+966", name: "Saudi Arabia", flag: "🇸🇦", placeholder: "50 123 4567" },
-    { code: "+90", name: "Turkey", flag: "🇹🇷", placeholder: "501 234 56 78" },
-    { code: "+7", name: "Russia", flag: "🇷🇺", placeholder: "912 345-67-89" },
+    { code: "+254", name: "Kenia", flag: "🇰🇪", placeholder: "712 123456" },
+    { code: "+971", name: "Vereinigte Arabische Emirate", flag: "🇦🇪", placeholder: "50 123 4567" },
+    { code: "+966", name: "Saudi-Arabien", flag: "🇸🇦", placeholder: "50 123 4567" },
+    { code: "+90", name: "Türkei", flag: "🇹🇷", placeholder: "501 234 56 78" },
+    { code: "+7", name: "Russland", flag: "🇷🇺", placeholder: "912 345-67-89" },
     { code: "+380", name: "Ukraine", flag: "🇺🇦", placeholder: "50 123 4567" },
-    { code: "+48", name: "Poland", flag: "🇵🇱", placeholder: "512 345 678" },
-    { code: "+31", name: "Netherlands", flag: "🇳🇱", placeholder: "6 12345678" },
-    { code: "+32", name: "Belgium", flag: "🇧🇪", placeholder: "470 12 34 56" },
-    { code: "+41", name: "Switzerland", flag: "🇨🇭", placeholder: "78 123 45 67" },
-    { code: "+43", name: "Austria", flag: "🇦🇹", placeholder: "664 123456" },
-    { code: "+45", name: "Denmark", flag: "🇩🇰", placeholder: "20 12 34 56" },
-    { code: "+46", name: "Sweden", flag: "🇸🇪", placeholder: "70-123 45 67" },
-    { code: "+47", name: "Norway", flag: "🇳🇴", placeholder: "406 12 345" },
-    { code: "+358", name: "Finland", flag: "🇫🇮", placeholder: "50 123 4567" },
-    { code: "+65", name: "Singapore", flag: "🇸🇬", placeholder: "8123 4567" },
-    { code: "+63", name: "Philippines", flag: "🇵🇭", placeholder: "912 345 6789" },
-    { code: "+62", name: "Indonesia", flag: "🇮🇩", placeholder: "0812 3456 789" },
+    { code: "+48", name: "Polen", flag: "🇵🇱", placeholder: "512 345 678" },
+    { code: "+31", name: "Niederlande", flag: "🇳🇱", placeholder: "6 12345678" },
+    { code: "+32", name: "Belgien", flag: "🇧🇪", placeholder: "470 12 34 56" },
+    { code: "+41", name: "Schweiz", flag: "🇨🇭", placeholder: "78 123 45 67" },
+    { code: "+43", name: "Österreich", flag: "🇦🇹", placeholder: "664 123456" },
+    { code: "+45", name: "Dänemark", flag: "🇩🇰", placeholder: "20 12 34 56" },
+    { code: "+46", name: "Schweden", flag: "🇸🇪", placeholder: "70-123 45 67" },
+    { code: "+47", name: "Norwegen", flag: "🇳🇴", placeholder: "406 12 345" },
+    { code: "+358", name: "Finnland", flag: "🇫🇮", placeholder: "50 123 4567" },
+    { code: "+65", name: "Singapur", flag: "🇸🇬", placeholder: "8123 4567" },
+    { code: "+63", name: "Philippinen", flag: "🇵🇭", placeholder: "912 345 6789" },
+    { code: "+62", name: "Indonesien", flag: "🇮🇩", placeholder: "0812 3456 789" },
     { code: "+60", name: "Malaysia", flag: "🇲🇾", placeholder: "012-345 6789" },
     { code: "+66", name: "Thailand", flag: "🇹🇭", placeholder: "081 234 5678" },
     { code: "+84", name: "Vietnam", flag: "🇻🇳", placeholder: "091 234 56 78" },
     { code: "+92", name: "Pakistan", flag: "🇵🇰", placeholder: "0300 1234567" },
     { code: "+98", name: "Iran", flag: "🇮🇷", placeholder: "0912 345 6789" },
     { code: "+94", name: "Sri Lanka", flag: "🇱🇰", placeholder: "071 123 4567" },
-    { code: "+880", name: "Bangladesh", flag: "🇧🇩", placeholder: "01712 345678" },
-    { code: "+855", name: "Cambodia", flag: "🇰🇭", placeholder: "092 123 456" },
+    { code: "+880", name: "Bangladesch", flag: "🇧🇩", placeholder: "01712 345678" },
+    { code: "+855", name: "Kambodscha", flag: "🇰🇭", placeholder: "092 123 456" },
     { code: "+673", name: "Brunei", flag: "🇧🇳", placeholder: "872 1234" },
-    { code: "+679", name: "Fiji", flag: "🇫🇯", placeholder: "920 1234" },
-    { code: "+675", name: "Papua New Guinea", flag: "🇵🇬", placeholder: "723 45678" },
-    { code: "+677", name: "Solomon Islands", flag: "🇸🇧", placeholder: "742 1234" },
+    { code: "+679", name: "Fidschi", flag: "🇫🇯", placeholder: "920 1234" },
+    { code: "+675", name: "Papua-Neuguinea", flag: "🇵🇬", placeholder: "723 45678" },
+    { code: "+677", name: "Salomonen", flag: "🇸🇧", placeholder: "742 1234" },
     { code: "+678", name: "Vanuatu", flag: "🇻🇺", placeholder: "778 1234" },
-    { code: "+691", name: "Micronesia", flag: "🇫🇲", placeholder: "920 1234" },
-    { code: "+692", name: "Marshall Islands", flag: "🇲🇭", placeholder: "692 1234" },
+    { code: "+691", name: "Mikronesien", flag: "🇫🇲", placeholder: "920 1234" },
+    { code: "+692", name: "Marshallinseln", flag: "🇲🇭", placeholder: "692 1234" },
     { code: "+680", name: "Palau", flag: "🇵🇼", placeholder: "620 1234" },
     { code: "+685", name: "Samoa", flag: "🇼🇸", placeholder: "722 1234" },
     { code: "+676", name: "Tonga", flag: "🇹🇴", placeholder: "771 1234" },
-    { code: "+682", name: "Cook Islands", flag: "🇨🇰", placeholder: "722 1234" },
+    { code: "+682", name: "Cookinseln", flag: "🇨🇰", placeholder: "722 1234" },
     { code: "+683", name: "Niue", flag: "🇳🇺", placeholder: "811 1234" },
-    { code: "+672", name: "Norfolk Island", flag: "🇳🇫", placeholder: "512 1234" },
+    { code: "+672", name: "Norfolkinsel", flag: "🇳🇫", placeholder: "512 1234" },
     { code: "+670", name: "Timor-Leste", flag: "🇹🇱", placeholder: "771 1234" },
     { code: "+688", name: "Tuvalu", flag: "🇹🇻", placeholder: "771 1234" },
     { code: "+690", name: "Tokelau", flag: "🇹🇰", placeholder: "811 1234" },
-    { code: "+239", name: "Sao Tome and Principe", flag: "🇸🇹", placeholder: "981 1234" },
-    { code: "+240", name: "Equatorial Guinea", flag: "🇬🇶", placeholder: "222 123 456" },
-    { code: "+241", name: "Gabon", flag: "🇬🇦", placeholder: "06 12 34 56 78" },
-    { code: "+242", name: "Republic of the Congo", flag: "🇨🇬", placeholder: "06 123 4567" },
-    { code: "+243", name: "Democratic Republic of the Congo", flag: "🇨🇩", placeholder: "081 123 4567" },
+    { code: "+239", name: "São Tomé und Príncipe", flag: "🇸🇹", placeholder: "981 1234" },
+    { code: "+240", name: "Äquatorialguinea", flag: "🇬🇶", placeholder: "222 123 456" },
+    { code: "+241", name: "Gabun", flag: "🇬🇦", placeholder: "06 12 34 56 78" },
+    { code: "+242", name: "Republik Kongo", flag: "🇨🇬", placeholder: "06 123 4567" },
+    { code: "+243", name: "Demokratische Republik Kongo", flag: "🇨🇩", placeholder: "081 123 4567" },
     { code: "+244", name: "Angola", flag: "🇦🇴", placeholder: "923 123 456" },
     { code: "+245", name: "Guinea-Bissau", flag: "🇬🇼", placeholder: "955 123 456" },
     { code: "+246", name: "Diego Garcia", flag: "🇮🇴", placeholder: "380 1234" },
-    { code: "+247", name: "Ascension Island", flag: "🇦🇨", placeholder: "650 1234" },
-    { code: "+248", name: "Seychelles", flag: "🇸🇨", placeholder: "2 510 123" },
+    { code: "+247", name: "Ascension", flag: "🇦🇨", placeholder: "650 1234" },
+    { code: "+248", name: "Seychellen", flag: "🇸🇨", placeholder: "2 510 123" },
     { code: "+249", name: "Sudan", flag: "🇸🇩", placeholder: "091 123 4567" },
-    { code: "+250", name: "Rwanda", flag: "🇷🇼", placeholder: "072 123 4567" },
-    { code: "+251", name: "Ethiopia", flag: "🇪🇹", placeholder: "091 123 4567" },
+    { code: "+250", name: "Ruanda", flag: "🇷🇼", placeholder: "072 123 4567" },
+    { code: "+251", name: "Äthiopien", flag: "🇪🇹", placeholder: "091 123 4567" },
     { code: "+252", name: "Somalia", flag: "🇸🇴", placeholder: "61 123 4567" },
-    { code: "+253", name: "Djibouti", flag: "🇩🇯", placeholder: "77 123 456" },
-    { code: "+255", name: "Tanzania", flag: "🇹🇿", placeholder: "071 123 4567" },
+    { code: "+253", name: "Dschibuti", flag: "🇩🇯", placeholder: "77 123 456" },
+    { code: "+255", name: "Tansania", flag: "🇹🇿", placeholder: "071 123 4567" },
     { code: "+256", name: "Uganda", flag: "🇺🇬", placeholder: "070 123 4567" },
     { code: "+257", name: "Burundi", flag: "🇧🇮", placeholder: "79 123 456" },
-    { code: "+258", name: "Mozambique", flag: "🇲🇿", placeholder: "82 123 4567" },
-    { code: "+260", name: "Zambia", flag: "🇿🇲", placeholder: "095 123 4567" },
-    { code: "+261", name: "Madagascar", flag: "🇲🇬", placeholder: "032 12 345 67" },
-    { code: "+262", name: "Reunion", flag: "🇷🇪", placeholder: "0692 12 34 56" },
-    { code: "+263", name: "Zimbabwe", flag: "🇿🇼", placeholder: "071 123 456" },
+    { code: "+258", name: "Mosambik", flag: "🇲🇿", placeholder: "82 123 4567" },
+    { code: "+260", name: "Sambia", flag: "🇿🇲", placeholder: "095 123 4567" },
+    { code: "+261", name: "Madagaskar", flag: "🇲🇬", placeholder: "032 12 345 67" },
+    { code: "+262", name: "Réunion", flag: "🇷🇪", placeholder: "0692 12 34 56" },
+    { code: "+263", name: "Simbabwe", flag: "🇿🇼", placeholder: "071 123 456" },
     { code: "+264", name: "Namibia", flag: "🇳🇦", placeholder: "081 123 4567" },
     { code: "+265", name: "Malawi", flag: "🇲🇼", placeholder: "099 123 4567" },
     { code: "+266", name: "Lesotho", flag: "🇱🇸", placeholder: "501 123 456" },
-    { code: "+267", name: "Botswana", flag: "🇧🇼", placeholder: "71 123 456" },
+    { code: "+267", name: "Botsuana", flag: "🇧🇼", placeholder: "71 123 456" },
     { code: "+268", name: "Eswatini", flag: "🇸🇿", placeholder: "761 123 456" },
-    { code: "+269", name: "Comoros", flag: "🇰🇲", placeholder: "321 1234" },
-    { code: "+290", name: "Saint Helena", flag: "🇸🇭", placeholder: "659 1234" },
+    { code: "+269", name: "Komoren", flag: "🇰🇲", placeholder: "321 1234" },
+    { code: "+290", name: "St. Helena", flag: "🇸🇭", placeholder: "659 1234" },
     { code: "+291", name: "Eritrea", flag: "🇪🇷", placeholder: "07 123 456" },
     { code: "+297", name: "Aruba", flag: "🇦🇼", placeholder: "560 1234" },
-    { code: "+298", name: "Faroe Islands", flag: "🇫🇴", placeholder: "211234" },
-    { code: "+299", name: "Greenland", flag: "🇬🇱", placeholder: "221234" },
+    { code: "+298", name: "Färöer-Inseln", flag: "🇫🇴", placeholder: "211234" },
+    { code: "+299", name: "Grönland", flag: "🇬🇱", placeholder: "221234" },
     { code: "+350", name: "Gibraltar", flag: "🇬🇮", placeholder: "571 12345" },
-    { code: "+352", name: "Luxembourg", flag: "🇱🇺", placeholder: "621 123 456" },
-    { code: "+353", name: "Ireland", flag: "🇮🇪", placeholder: "083 123 4567" },
-    { code: "+354", name: "Iceland", flag: "🇮🇸", placeholder: "611 1234" },
-    { code: "+355", name: "Albania", flag: "🇦🇱", placeholder: "067 123 4567" },
+    { code: "+352", name: "Luxemburg", flag: "🇱🇺", placeholder: "621 123 456" },
+    { code: "+353", name: "Irland", flag: "🇮🇪", placeholder: "083 123 4567" },
+    { code: "+354", name: "Island", flag: "🇮🇸", placeholder: "611 1234" },
+    { code: "+355", name: "Albanien", flag: "🇦🇱", placeholder: "067 123 4567" },
     { code: "+356", name: "Malta", flag: "🇲🇹", placeholder: "799 12345" },
-    { code: "+357", name: "Cyprus", flag: "🇨🇾", placeholder: "961 12345" },
-    { code: "+359", name: "Bulgaria", flag: "🇧🇬", placeholder: "088 123 4567" },
-    { code: "+370", name: "Lithuania", flag: "🇱🇹", placeholder: "601 12345" },
-    { code: "+371", name: "Latvia", flag: "🇱🇻", placeholder: "200 12345" },
-    { code: "+372", name: "Estonia", flag: "🇪🇪", placeholder: "501 1234" },
-    { code: "+373", name: "Moldova", flag: "🇲🇩", placeholder: "068 123 456" },
-    { code: "+374", name: "Armenia", flag: "🇦🇲", placeholder: "091 123 456" },
-    { code: "+375", name: "Belarus", flag: "🇧🇾", placeholder: "029 123 4567" },
+    { code: "+357", name: "Zypern", flag: "🇨🇾", placeholder: "961 12345" },
+    { code: "+359", name: "Bulgarien", flag: "🇧🇬", placeholder: "088 123 4567" },
+    { code: "+370", name: "Litauen", flag: "🇱🇹", placeholder: "601 12345" },
+    { code: "+371", name: "Lettland", flag: "🇱🇻", placeholder: "200 12345" },
+    { code: "+372", name: "Estland", flag: "🇪🇪", placeholder: "501 1234" },
+    { code: "+373", name: "Moldawien", flag: "🇲🇩", placeholder: "068 123 456" },
+    { code: "+374", name: "Armenien", flag: "🇦🇲", placeholder: "091 123 456" },
+    { code: "+375", name: "Weißrussland", flag: "🇧🇾", placeholder: "029 123 4567" },
     { code: "+376", name: "Andorra", flag: "🇦🇩", placeholder: "606 123 456" },
     { code: "+377", name: "Monaco", flag: "🇲🇨", placeholder: "06 12 34 56 78" },
     { code: "+378", name: "San Marino", flag: "🇸🇲", placeholder: "333 123456" },
-    { code: "+379", name: "Vatican City", flag: "🇻🇦", placeholder: "333 123456" },
-    { code: "+381", name: "Serbia", flag: "🇷🇸", placeholder: "061 123 4567" },
+    { code: "+379", name: "Vatikanstadt", flag: "🇻🇦", placeholder: "333 123456" },
+    { code: "+381", name: "Serbien", flag: "🇷🇸", placeholder: "061 123 4567" },
     { code: "+382", name: "Montenegro", flag: "🇲🇪", placeholder: "067 123 456" },
     { code: "+383", name: "Kosovo", flag: "🇽🇰", placeholder: "049 123 456" },
-    { code: "+385", name: "Croatia", flag: "🇭🇷", placeholder: "091 123 4567" },
-    { code: "+386", name: "Slovenia", flag: "🇸🇮", placeholder: "031 123 456" },
-    { code: "+387", name: "Bosnia and Herzegovina", flag: "🇧🇦", placeholder: "061 123 456" },
-    { code: "+389", name: "North Macedonia", flag: "🇲🇰", placeholder: "070 123 456" },
-    { code: "+420", name: "Czech Republic", flag: "🇨🇿", placeholder: "601 123 456" },
-    { code: "+421", name: "Slovakia", flag: "🇸🇰", placeholder: "0911 123 456" },
+    { code: "+385", name: "Kroatien", flag: "🇭🇷", placeholder: "091 123 4567" },
+    { code: "+386", name: "Slowenien", flag: "🇸🇮", placeholder: "031 123 456" },
+    { code: "+387", name: "Bosnien und Herzegowina", flag: "🇧🇦", placeholder: "061 123 456" },
+    { code: "+389", name: "Nordmazedonien", flag: "🇲🇰", placeholder: "070 123 456" },
+    { code: "+420", name: "Tschechische Republik", flag: "🇨🇿", placeholder: "601 123 456" },
+    { code: "+421", name: "Slowakei", flag: "🇸🇰", placeholder: "0911 123 456" },
     { code: "+423", name: "Liechtenstein", flag: "🇱🇮", placeholder: "660 123 456" },
-    { code: "+500", name: "Falkland Islands", flag: "🇫🇰", placeholder: "51234" },
+    { code: "+500", name: "Falklandinseln", flag: "🇫🇰", placeholder: "51234" },
     { code: "+501", name: "Belize", flag: "🇧🇿", placeholder: "622 1234" },
     { code: "+502", name: "Guatemala", flag: "🇬🇹", placeholder: "5512 3456" },
     { code: "+503", name: "El Salvador", flag: "🇸🇻", placeholder: "7012 3456" },
@@ -579,45 +394,45 @@ export default function SigiloX() {
     { code: "+505", name: "Nicaragua", flag: "🇳🇮", placeholder: "8712 3456" },
     { code: "+506", name: "Costa Rica", flag: "🇨🇷", placeholder: "8312 3456" },
     { code: "+507", name: "Panama", flag: "🇵🇦", placeholder: "6712 3456" },
-    { code: "+508", name: "Saint Pierre and Miquelon", flag: "🇵🇲", placeholder: "551 1234" },
+    { code: "+508", name: "St. Pierre und Miquelon", flag: "🇵🇲", placeholder: "551 1234" },
     { code: "+509", name: "Haiti", flag: "🇭🇹", placeholder: "3412 3456" },
     { code: "+590", name: "Guadeloupe", flag: "🇬🇵", placeholder: "0690 12 34 56" },
     { code: "+592", name: "Guyana", flag: "🇬🇾", placeholder: "612 3456" },
-    { code: "+594", name: "French Guiana", flag: "🇬🇫", placeholder: "0694 12 34 56" },
+    { code: "+594", name: "Französisch-Guayana", flag: "🇬🇫", placeholder: "0694 12 34 56" },
     { code: "+596", name: "Martinique", flag: "🇲🇶", placeholder: "0696 12 34 56" },
     { code: "+597", name: "Suriname", flag: "🇸🇷", placeholder: "741 1234" },
     { code: "+599", name: "Curaçao", flag: "🇨🇼", placeholder: "9 561 1234" },
     { code: "+674", name: "Nauru", flag: "🇳🇷", placeholder: "555 1234" },
-    { code: "+681", name: "Wallis and Futuna", flag: "🇼🇫", placeholder: "721 1234" },
+    { code: "+681", name: "Wallis und Futuna", flag: "🇼🇫", placeholder: "721 1234" },
     { code: "+686", name: "Kiribati", flag: "🇰🇮", placeholder: "720 1234" },
-    { code: "+687", name: "New Caledonia", flag: "🇳🇨", placeholder: "750 1234" },
-    { code: "+689", name: "French Polynesia", flag: "🇵🇫", placeholder: "87 12 34 56" },
-    { code: "+850", name: "North Korea", flag: "🇰🇵", placeholder: "191 123 4567" },
-    { code: "+852", name: "Hong Kong", flag: "🇭🇰", placeholder: "6123 4567" },
+    { code: "+687", name: "Neukaledonien", flag: "🇳🇨", placeholder: "750 1234" },
+    { code: "+689", name: "Französisch-Polynesien", flag: "🇵🇫", placeholder: "87 12 34 56" },
+    { code: "+850", name: "Nordkorea", flag: "🇰🇵", placeholder: "191 123 4567" },
+    { code: "+852", name: "Hongkong", flag: "🇭🇰", placeholder: "6123 4567" },
     { code: "+853", name: "Macau", flag: "🇲🇴", placeholder: "6612 3456" },
     { code: "+856", name: "Laos", flag: "🇱🇦", placeholder: "020 1234 5678" },
     { code: "+886", name: "Taiwan", flag: "🇹🇼", placeholder: "0912 345 678" },
-    { code: "+960", name: "Maldives", flag: "🇲🇻", placeholder: "777 1234" },
-    { code: "+961", name: "Lebanon", flag: "🇱🇧", placeholder: "03 123 456" },
-    { code: "+962", name: "Jordan", flag: "🇯🇴", placeholder: "079 123 4567" },
-    { code: "+963", name: "Syria", flag: "🇸🇾", placeholder: "093 123 456" },
-    { code: "+964", name: "Iraq", flag: "🇮🇶", placeholder: "0790 123 4567" },
+    { code: "+960", name: "Malediven", flag: "🇲🇻", placeholder: "777 1234" },
+    { code: "+961", name: "Libanon", flag: "🇱🇧", placeholder: "03 123 456" },
+    { code: "+962", name: "Jordanien", flag: "🇯🇴", placeholder: "079 123 4567" },
+    { code: "+963", name: "Syrien", flag: "🇸🇾", placeholder: "093 123 456" },
+    { code: "+964", name: "Irak", flag: "🇮🇶", placeholder: "0790 123 4567" },
     { code: "+965", name: "Kuwait", flag: "🇰🇼", placeholder: "600 12345" },
-    { code: "+967", name: "Yemen", flag: "🇾🇪", placeholder: "711 123 456" },
+    { code: "+967", name: "Jemen", flag: "🇾🇪", placeholder: "711 123 456" },
     { code: "+968", name: "Oman", flag: "🇴🇲", placeholder: "921 12345" },
-    { code: "+970", name: "Palestine", flag: "🇵🇸", placeholder: "0599 123 456" },
+    { code: "+970", name: "Palästina", flag: "🇵🇸", placeholder: "0599 123 456" },
     { code: "+972", name: "Israel", flag: "🇮🇱", placeholder: "052-123-4567" },
     { code: "+973", name: "Bahrain", flag: "🇧🇭", placeholder: "3600 1234" },
-    { code: "+974", name: "Qatar", flag: "🇶🇦", placeholder: "3312 3456" },
+    { code: "+974", name: "Katar", flag: "🇶🇦", placeholder: "3312 3456" },
     { code: "+975", name: "Bhutan", flag: "🇧🇹", placeholder: "17 123 456" },
-    { code: "+976", name: "Mongolia", flag: "🇲🇳", placeholder: "8812 3456" },
+    { code: "+976", name: "Mongolei", flag: "🇲🇳", placeholder: "8812 3456" },
     { code: "+977", name: "Nepal", flag: "🇳🇵", placeholder: "984 123 4567" },
-    { code: "+992", name: "Tajikistan", flag: "🇹🇯", placeholder: "917 123 456" },
+    { code: "+992", name: "Tadschikistan", flag: "🇹🇯", placeholder: "917 123 456" },
     { code: "+993", name: "Turkmenistan", flag: "🇹🇲", placeholder: "66 123 4567" },
-    { code: "+994", name: "Azerbaijan", flag: "🇦🇿", placeholder: "050 123 45 67" },
-    { code: "+995", name: "Georgia", flag: "🇬🇪", placeholder: "555 12 34 56" },
-    { code: "+996", name: "Kyrgyzstan", flag: "🇰🇬", placeholder: "0700 123 456" },
-    { code: "+998", name: "Uzbekistan", flag: "🇺🇿", placeholder: "90 123 45 67" },
+    { code: "+994", name: "Aserbaidschan", flag: "🇦🇿", placeholder: "050 123 45 67" },
+    { code: "+995", name: "Georgien", flag: "🇬🇪", placeholder: "555 12 34 56" },
+    { code: "+996", name: "Kirgisistan", flag: "🇰🇬", placeholder: "0700 123 456" },
+    { code: "+998", name: "Usbekistan", flag: "🇺🇿", placeholder: "90 123 45 67" },
   ]
 
   const filteredCountries = countries.filter(
@@ -669,44 +484,43 @@ export default function SigiloX() {
     const steps = [
       {
         id: "form",
-        label: "Config",
-        fullLabel: "Configuration",
-        mobileLabel: "Config",
+        label: "Konfig",
+        fullLabel: "Konfiguration",
+        mobileLabel: "Konfig",
         completed: ["form", "verification", "preliminary", "generating", "result", "offer"].includes(currentStep),
       },
       {
         id: "verification",
         label: "Verif",
-        fullLabel: "Verification",
+        fullLabel: "Verifizierung",
         mobileLabel: "Verif",
         completed: ["verification", "preliminary", "generating", "result", "offer"].includes(currentStep),
       },
       {
         id: "preliminary",
-        label: "Result",
-        fullLabel: "Result",
-        mobileLabel: "Resultado",
+        label: "Ergeb",
+        fullLabel: "Ergebnis",
+        mobileLabel: "Ergebnis",
         completed: ["preliminary", "generating", "result", "offer"].includes(currentStep),
       },
       {
         id: "generating",
-        label: "Relat",
-        fullLabel: "Report",
-        mobileLabel: "Relatório",
+        label: "Bericht",
+        fullLabel: "Bericht",
+        mobileLabel: "Bericht",
         completed: ["generating", "result", "offer"].includes(currentStep),
       },
       {
         id: "offer",
-        label: "Desbl",
-        fullLabel: "Unlock",
-        mobileLabel: "Acesso",
+        label: "Freis",
+        fullLabel: "Freischalten",
+        mobileLabel: "Zugriff",
         completed: currentStep === "offer",
       },
     ]
     return steps
   }
-
-  // Timer countdown
+    // Timer countdown
   useEffect(() => {
     if (currentStep === "result" || currentStep === "offer") {
       const timer = setInterval(() => {
@@ -720,14 +534,14 @@ export default function SigiloX() {
   useEffect(() => {
     if (currentStep === "verification") {
       const messages = [
-        { progress: 0, message: "Checking Tinder activity in your area..." },
-        { progress: 15, message: "Cross-referencing facial recognition data..." },
-        { progress: 30, message: "Analyzing recent login patterns..." },
-        { progress: 45, message: "Scanning Bumble, Hinge, and other platforms..." },
-        { progress: 60, message: "Detecting suspicious location activity..." },
-        { progress: 75, message: "Compiling confidential evidence..." },
-        { progress: 90, message: "Almost there - finalizing your report..." },
-        { progress: 100, message: "Investigation completed successfully!" },
+        { progress: 0, message: "Überprüfung der Tinder-Aktivität in Ihrer Nähe..." },
+        { progress: 15, message: "Abgleich der Gesichtserkennungsdaten..." },
+        { progress: 30, message: "Analyse der letzten Anmeldemuster..." },
+        { progress: 45, message: "Scannen von Bumble, Hinge und anderen Plattformen..." },
+        { progress: 60, message: "Erkennung verdächtiger Standortaktivitäten..." },
+        { progress: 75, message: "Zusammenstellung vertraulicher Beweismittel..." },
+        { progress: 90, message: "Fast geschafft - Ihr Bericht wird fertiggestellt..." },
+        { progress: 100, message: "Untersuchung erfolgreich abgeschlossen!" },
       ]
 
       const interval = setInterval(() => {
@@ -754,20 +568,20 @@ export default function SigiloX() {
   useEffect(() => {
     if (currentStep === "generating") {
       const baseMessages = [
-        { progress: 0, message: "Analyzing profile photos..." },
-        { progress: 20, message: "Processing message history..." },
-        { progress: 40, message: "Checking last accessed locations..." },
-        { progress: 60, message: "Compiling activity data..." },
-        { progress: 80, message: "Encrypting sensitive information..." },
-        { progress: 95, message: "Finalizing complete report..." },
-        { progress: 100, message: "Report generated successfully!" },
+        { progress: 0, message: "Analyse der Profilfotos..." },
+        { progress: 20, message: "Verarbeitung des Nachrichtenverlaufs..." },
+        { progress: 40, message: "Überprüfung der zuletzt aufgerufenen Standorte..." },
+        { progress: 60, message: "Zusammenstellung der Aktivitätsdaten..." },
+        { progress: 80, message: "Verschlüsselung sensibler Informationen..." },
+        { progress: 95, message: "Fertigstellung des vollständigen Berichts..." },
+        { progress: 100, message: "Bericht erfolgreich erstellt!" },
       ]
 
       // Add geolocation-specific message if city is available
       const messages = city
         ? [
             ...baseMessages.slice(0, 2),
-            { progress: 30, message: `Analyzing recent activities in the region of ${city}...` },
+            { progress: 30, message: `Analyse der letzten Aktivitäten in der Region von ${city}...` },
             ...baseMessages.slice(2),
           ]
         : baseMessages
@@ -857,7 +671,7 @@ export default function SigiloX() {
           "https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI=",
         )
         setIsPhotoPrivate(true)
-        setPhotoError("Could not load photo")
+        setPhotoError("Foto konnte nicht geladen werden")
         return
       }
 
@@ -870,7 +684,7 @@ export default function SigiloX() {
         "https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI=",
       )
       setIsPhotoPrivate(true)
-      setPhotoError("Error loading photo")
+      setPhotoError("Fehler beim Laden des Fotos")
     } finally {
       setIsLoadingPhoto(false)
     }
@@ -922,8 +736,7 @@ export default function SigiloX() {
     const secs = seconds % 60
     return `${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`
   }
-
-  // Updated blocked images with new chat screenshots
+    // Updated blocked images with new chat screenshots
   const blockedImages = [
     "https://i.ibb.co/PZmmjcxb/CHAT1.png",
     "https://i.ibb.co/20581vtC/CHAT2.png",
@@ -1005,89 +818,89 @@ export default function SigiloX() {
     if (city) {
         matchLocation = city;
     } else {
-        const defaultGlobalLocations = ["New York", "Los Angeles", "Chicago", "London"];
+        const defaultGlobalLocations = ["Berlin", "Hamburg", "München", "Köln"];
         matchLocation = defaultGlobalLocations[Math.floor(Math.random() * defaultGlobalLocations.length)];
     }
 
     const sampleBios = [
-      "I'm what you get if you mix Pete Davidson with Denzel Washington. I'm funny on accident and my mom thinks I'm handsome",
-      "Adventure seeker, coffee lover, and dog enthusiast. Looking for someone to explore the city with!",
-      "Fitness enthusiast by day, Netflix binger by night. Let's grab a smoothie and talk about life.",
-      "Artist, dreamer, and part-time philosopher. I believe in good vibes and great conversations.",
-      "Part comedian, part couch potato. I bring the laughs, you bring the snacks—deal?",
-      "Explorer of new places and old pizza joints. Let’s find the best slice in town.",
-      "Gym rat by morning, taco enthusiast by night. Wanna join me for either?",
-      "Dreamer with a playlist for every mood. Share your favorite song and let’s vibe.",
-      "50% adventure, 50% Netflix. Looking for someone to balance me out.",
-      "Lover of sunsets, sarcasm, and spontaneous road trips. Got a destination in mind?",
-      "I believe in good coffee, great conversations, and petting every dog I see.",
-      "Part-time philosopher, full-time snack connoisseur. Let’s debate pizza toppings.",
-      "Always chasing sunrises and good stories. Got one to share?",
-      "My life’s a mix of chaos and chill. Join me for the chill part?",
-      "Foodie, wanderer, and occasional over-thinker. Let’s grab a bite and solve life’s mysteries.",
-      "I’m 10% witty banter, 90% trying to keep my plants alive. Help me out?",
-      "Music junkie and stargazer. Let’s find a spot to watch the sky and talk.",
-      "I bring the bad puns, you bring the eye rolls. Perfect match, right?",
-      "Lover of books, beaches, and burritos. Let’s make a story of our own.",
-      "Half adrenaline junkie, half cozy blanket enthusiast. What’s your vibe?",
-      "Always down for a hike or a late-night diner run. Pick your adventure!",
-      "I’m the friend who’s always late but brings the best playlists. Wanna jam?",
-      "Life’s too short for bad coffee or boring chats. Let’s make both epic.",
-      "Part dreamer, part doer, all about good vibes. Ready to make some memories?"
+      "Ich bin das, was man bekommt, wenn man einen Komiker mit einem Denker kreuzt. Ich bin aus Versehen witzig und meine Mutter findet mich gutaussehend.",
+      "Abenteuersuchender, Kaffeeliebhaber und Hundefan. Suche jemanden, um die Stadt zu erkunden!",
+      "Tagsüber Fitness-Enthusiast, nachts Netflix-Binger. Lass uns einen Smoothie trinken und über das Leben reden.",
+      "Künstler, Träumer und Teilzeit-Philosoph. Ich glaube an gute Schwingungen und tolle Gespräche.",
+      "Teilweise Komiker, teilweise Couch-Potato. Ich bringe die Lacher, du die Snacks – Deal?",
+      "Entdecker von neuen Orten und alten Pizzerien. Lass uns das beste Stück der Stadt finden.",
+      "Morgens eine Sportskanone, abends ein Taco-Liebhaber. Willst du bei einem von beiden mitmachen?",
+      "Träumer mit einer Playlist für jede Stimmung. Teile deinen Lieblingssong und lass uns die Stimmung genießen.",
+      "50 % Abenteuer, 50 % Netflix. Suche jemanden, der mich ausgleicht.",
+      "Liebhaber von Sonnenuntergängen, Sarkasmus und spontanen Roadtrips. Hast du ein Ziel im Kopf?",
+      "Ich glaube an guten Kaffee, tolle Gespräche und daran, jeden Hund zu streicheln, den ich sehe.",
+      "Teilzeit-Philosoph, Vollzeit-Snack-Kenner. Lass uns über Pizzabeläge diskutieren.",
+      "Immer auf der Jagd nach Sonnenaufgängen und guten Geschichten. Hast du eine zu erzählen?",
+      "Mein Leben ist eine Mischung aus Chaos und Entspannung. Begleitest du mich beim entspannten Teil?",
+      "Feinschmecker, Wanderer und gelegentlicher Grübler. Lass uns etwas essen und die Rätsel des Lebens lösen.",
+      "Ich bin 10 % witziger Schlagabtausch, 90 % der Versuch, meine Pflanzen am Leben zu erhalten. Hilfst du mir?",
+      "Musik-Junkie und Sterngucker. Lass uns einen Ort finden, um den Himmel zu beobachten und zu reden.",
+      "Ich bringe die schlechten Wortwitze, du das Augenrollen. Perfekte Kombination, oder?",
+      "Liebhaber von Büchern, Stränden und Burritos. Lass uns unsere eigene Geschichte schreiben.",
+      "Halb Adrenalin-Junkie, halb Liebhaber von Kuscheldecken. Was ist deine Stimmung?",
+      "Immer bereit für eine Wanderung oder einen nächtlichen Diner-Besuch. Wähle dein Abenteuer!",
+      "Ich bin der Freund, der immer zu spät kommt, aber die besten Playlists mitbringt. Willst du mitjammen?",
+      "Das Leben ist zu kurz für schlechten Kaffee oder langweilige Gespräche. Machen wir beides episch.",
+      "Teilweise Träumer, teilweise Macher, alles für gute Schwingungen. Bereit, ein paar Erinnerungen zu schaffen?"
 ];
     const personalityTags = [
-      ["Capricorn", "INTJ", "Cat"],
-      ["Leo", "ENFP", "Dog"],
-      ["Virgo", "ISFJ", "Coffee"],
-      ["Gemini", "ENTP", "Travel"],
-      ["Aries", "ESTP", "Adventure"],
-      ["Taurus", "INFJ", "Books"],
-      ["Scorpio", "INTP", "Music"],
-      ["Libra", "ESFJ", "Art"],
-      ["Aquarius", "ENFJ", "Stargazing"],
-      ["Pisces", "INFP", "Dreams"],
-      ["Cancer", "ISFP", "Beach"],
-      ["Sagittarius", "ENTJ", "Hiking"],
-      ["Capricorn", "ISTJ", "Cooking"],
-      ["Leo", "ESFP", "Dance"],
-      ["Virgo", "ISTP", "Gaming"],
-      ["Gemini", "ENFP", "Photography"],
-      ["Aries", "ESTJ", "Sports"],
-      ["Taurus", "INFP", "Nature"],
-      ["Scorpio", "INTJ", "Mystery"],
-      ["Libra", "ENFJ", "Fashion"],
-      ["Aquarius", "ENTP", "Tech"],
-      ["Pisces", "ISFJ", "Movies"],
-      ["Cancer", "INFJ", "Poetry"],
-      ["Sagittarius", "ESFP", "Parties"]
+      ["Steinbock", "INTJ", "Katze"],
+      ["Löwe", "ENFP", "Hund"],
+      ["Jungfrau", "ISFJ", "Kaffee"],
+      ["Zwillinge", "ENTP", "Reisen"],
+      ["Widder", "ESTP", "Abenteuer"],
+      ["Stier", "INFJ", "Bücher"],
+      ["Skorpion", "INTP", "Musik"],
+      ["Waage", "ESFJ", "Kunst"],
+      ["Wassermann", "ENFJ", "Sterne beobachten"],
+      ["Fische", "INFP", "Träume"],
+      ["Krebs", "ISFP", "Strand"],
+      ["Schütze", "ENTJ", "Wandern"],
+      ["Steinbock", "ISTJ", "Kochen"],
+      ["Löwe", "ESFP", "Tanzen"],
+      ["Jungfrau", "ISTP", "Gaming"],
+      ["Zwillinge", "ENFP", "Fotografie"],
+      ["Widder", "ESTJ", "Sport"],
+      ["Stier", "INFP", "Natur"],
+      ["Skorpion", "INTJ", "Geheimnis"],
+      ["Waage", "ENFJ", "Mode"],
+      ["Wassermann", "ENTP", "Technik"],
+      ["Fische", "ISFJ", "Filme"],
+      ["Krebs", "INFJ", "Poesie"],
+      ["Schütze", "ESFP", "Partys"]
 ];
     const interestTags = [
-      ["Pro-Choice", "Coffee", "Black Lives Matter", "Tattoos"],
-      ["Yoga", "Sustainability", "Photography", "Cooking"],
-      ["Fitness", "Meditation", "Books", "Wine"],
-      ["Travel", "Music", "Animal Rights", "Hiking"],
-      ["Art", "Veganism", "Movies", "Adventure"],
-      ["Gaming", "Technology", "Nature", "Crafting"],
-      ["Dance", "Social Justice", "Podcasts", "Baking"],
-      ["Fashion", "Environmentalism", "Poetry", "Camping"],
-      ["Sports", "Mental Health", "Gardening", "Vinyl Records"],
-      ["Writing", "Climate Action", "Theater", "Coffee Shops"],
-      ["Running", "Volunteering", "Board Games", "Street Food"],
-      ["Painting", "LGBTQ+ Rights", "Concerts", "Thrifting"],
-      ["Cycling", "Mindfulness", "Sci-Fi", "Breweries"],
-      ["Skiing", "Activism", "Documentaries", "Sunsets"],
-      ["Surfing", "Urban Exploration", "Comics", "Craft Beer"],
-      ["Climbing", "Equality", "Jazz Music", "Vintage Cars"],
-      ["Skateboarding", "Sustainable Fashion", "Podcasts", "Food Trucks"],
-      ["Kayaking", "Animal Welfare", "Fantasy Books", "Stargazing"],
-      ["Boxing", "Community Service", "Indie Films", "Sushi"],
-      ["Hiking", "Green Living", "Live Music", "Pottery"],
-      ["Swimming", "Feminism", "History", "Barbecue"],
-      ["Photography", "Minimalism", "True Crime", "Road Trips"],
-      ["Dancing", "Charity Work", "Animation", "Cocktails"],
-      ["Singing", "Ocean Conservation", "Mystery Novels", "Picnics"]
+      ["Pro-Choice", "Kaffee", "Black Lives Matter", "Tattoos"],
+      ["Yoga", "Nachhaltigkeit", "Fotografie", "Kochen"],
+      ["Fitness", "Meditation", "Bücher", "Wein"],
+      ["Reisen", "Musik", "Tierrechte", "Wandern"],
+      ["Kunst", "Veganismus", "Filme", "Abenteuer"],
+      ["Gaming", "Technologie", "Natur", "Handwerk"],
+      ["Tanzen", "Soziale Gerechtigkeit", "Podcasts", "Backen"],
+      ["Mode", "Umweltschutz", "Poesie", "Camping"],
+      ["Sport", "Psychische Gesundheit", "Gartenarbeit", "Schallplatten"],
+      ["Schreiben", "Klimaschutz", "Theater", "Cafés"],
+      ["Laufen", "Ehrenamt", "Brettspiele", "Street Food"],
+      ["Malen", "LGBTQ+-Rechte", "Konzerte", "Secondhand-Läden"],
+      ["Radfahren", "Achtsamkeit", "Sci-Fi", "Brauereien"],
+      ["Skifahren", "Aktivismus", "Dokumentarfilme", "Sonnenuntergänge"],
+      ["Surfen", "Stadterkundung", "Comics", "Craft-Bier"],
+      ["Klettern", "Gleichberechtigung", "Jazzmusik", "Oldtimer"],
+      ["Skateboarden", "Nachhaltige Mode", "Podcasts", "Foodtrucks"],
+      ["Kajakfahren", "Tierschutz", "Fantasy-Bücher", "Sterne beobachten"],
+      ["Boxen", "Gemeinnützige Arbeit", "Indie-Filme", "Sushi"],
+      ["Wandern", "Grünes Leben", "Live-Musik", "Töpfern"],
+      ["Schwimmen", "Feminismus", "Geschichte", "Grillen"],
+      ["Fotografie", "Minimalismus", "True Crime", "Road Trips"],
+      ["Tanzen", "Wohltätigkeitsarbeit", "Animation", "Cocktails"],
+      ["Singen", "Meeresschutz", "Krimis", "Picknicks"]
 ];
-    const orientations = ["Straight", "Bisexual", "Pansexual", "Queer"];
+    const orientations = ["Hetero", "Bisexuell", "Pansexuell", "Queer"];
 
     for (let i = 0; i < 3; i++) {
       let profileGender: 'masculino' | 'feminino';
@@ -1141,12 +954,12 @@ export default function SigiloX() {
       profiles.push({
         name,
         age,
-        lastSeen: `${Math.floor(Math.random() * 24)}h ago`,
-        description: "Active user, frequently online",
+        lastSeen: `vor ${Math.floor(Math.random() * 24)} Std.`,
+        description: "Aktiver Nutzer, häufig online",
         image: profileImage,
         bio: sampleBios[Math.floor(Math.random() * sampleBios.length)],
-        location: `Lives in ${matchLocation}`,
-        distance: `${Math.floor(Math.random() * 15) + 1} km away`,
+        location: `Lebt in ${matchLocation}`,
+        distance: `${Math.floor(Math.random() * 15) + 1} km entfernt`,
         orientation: orientations[Math.floor(Math.random() * orientations.length)],
         personality: personalityTags[Math.floor(Math.random() * personalityTags.length)],
         interests: interestTags[Math.floor(Math.random() * interestTags.length)],
@@ -1210,8 +1023,8 @@ export default function SigiloX() {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            tag: "tinder check en - usuario criado",
-            evento: "Usuário Criado",
+            tag: "tinder check de - benutzer erstellt",
+            evento: "Benutzer erstellt",
             email: userEmail,
             phone: phoneNumber,
           }),
@@ -1264,8 +1077,7 @@ export default function SigiloX() {
           </div>
         </div>
       )}
-
-      {/* Sales Proof Popup - Dynamic Social Proof */}
+            {/* Sales Proof Popup - Dynamic Social Proof */}
       <AnimatePresence>
         {showSalesProof && (currentStep === "generating" || currentStep === "result" || currentStep === "offer") && (
           <SalesProofPopup show={showSalesProof} onClose={() => setShowSalesProof(false)} />
@@ -1326,10 +1138,10 @@ export default function SigiloX() {
                     transition={{ delay: 0.2 }}
                     className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-4 px-2 leading-tight"
                   >
-                    That Gut Feeling Won't Go Away...
+                    Dieses Bauchgefühl geht nicht weg...
                     <br />
                     <span className="text-[#FF3B30] text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold">
-                      And You're Right to Trust It
+                      Und Sie haben Recht, ihm zu vertrauen
                     </span>
                   </motion.h1>
                   <motion.p
@@ -1338,8 +1150,7 @@ export default function SigiloX() {
                     transition={{ delay: 0.4 }}
                     className="text-[#CCCCCC] mb-6 text-base sm:text-lg md:text-xl px-4 max-w-3xl mx-auto font-medium"
                   >
-                    Stop losing sleep wondering if they're still swiping. Get the answers you need - completely
-                    anonymously.
+                    Hören Sie auf, schlaflose Nächte damit zu verbringen, sich zu fragen, ob sie noch am Swipen sind. Holen Sie sich die Antworten, die Sie brauchen – völlig anonym.
                   </motion.p>
                   <motion.div
                     initial={{ y: 20, opacity: 0 }}
@@ -1348,7 +1159,7 @@ export default function SigiloX() {
                     className="inline-flex items-center gap-2 bg-green-600/20 text-green-300 px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm mt-4 border border-green-500/30"
                   >
                     <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5" />
-                    <span className="font-medium">Advanced Detection System - Updated June 2025</span>
+                    <span className="font-medium">Fortschrittliches Erkennungssystem - Aktualisiert Juni 2025</span>
                   </motion.div>
                 </div>
 
@@ -1362,25 +1173,25 @@ export default function SigiloX() {
                   <div className="flex items-center gap-3 sm:gap-4 bg-white/10 backdrop-blur-sm text-white px-4 sm:px-6 py-3 sm:py-4 rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <Activity className="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0 text-[#00FF99]" />
                     <span className="font-semibold text-sm sm:text-base">
-                      ✅ See their last login (even when they say they're 'done' with apps)
+                      ✅ Sehen Sie ihren letzten Login (auch wenn sie sagen, dass sie mit Apps „fertig“ sind)
                     </span>
                   </div>
                   <div className="flex items-center gap-3 sm:gap-4 bg-white/10 backdrop-blur-sm text-white px-4 sm:px-6 py-3 sm:py-4 rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <MapPin className="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0 text-[#00FF99]" />
                     <span className="font-semibold text-sm sm:text-base">
-                      ✅ Discover where they're really swiping from
+                      ✅ Entdecken Sie, von wo aus sie wirklich swipen
                     </span>
                   </div>
                   <div className="flex items-center gap-3 sm:gap-4 bg-white/10 backdrop-blur-sm text-white px-4 sm:px-6 py-3 sm:py-4 rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <Eye className="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0 text-[#00FF99]" />
                     <span className="font-semibold text-sm sm:text-base">
-                      ✅ Access the conversations they don't want you to see
+                      ✅ Greifen Sie auf die Gespräche zu, von denen sie nicht wollen, dass Sie sie sehen
                     </span>
                   </div>
                   <div className="flex items-center gap-3 sm:gap-4 bg-white/10 backdrop-blur-sm text-white px-4 sm:px-6 py-3 sm:py-4 rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
                     <Shield className="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0 text-[#00FF99]" />
                     <span className="font-semibold text-sm sm:text-base">
-                      ✅ Your investigation stays completely private
+                      ✅ Ihre Untersuchung bleibt völlig privat
                     </span>
                   </div>
                 </motion.div>
@@ -1397,12 +1208,12 @@ export default function SigiloX() {
                     className="bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-4 sm:py-6 px-6 sm:px-8 text-sm sm:text-base md:text-lg rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 w-full max-w-md mx-auto flex items-center justify-center text-center overflow-hidden"
                   >
                     <span className="block text-center leading-tight px-2 break-words whitespace-normal">
-                      🔍 GET THE TRUTH – START ANONYMOUS SEARCH
+                      🔍 DIE WAHRHEIT ERFAHREN – ANONYME SUCHE STARTEN
                     </span>
                   </Button>
 
                   <p className="text-sm text-gray-300 mt-4 font-medium">
-                    100% anonymous investigation. They'll never know you checked.
+                    100 % anonyme Untersuchung. Sie werden nie erfahren, dass Sie nachgesehen haben.
                   </p>
                 </motion.div>
               </div>
@@ -1412,14 +1223,13 @@ export default function SigiloX() {
                 <div className="container mx-auto px-4">
                   <div className="text-center mb-8 sm:mb-12">
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#333333] mb-4">
-                      You're Not Paranoid -
+                      Sie sind nicht paranoid -
                     </h2>
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FF0066] to-[#FF3333] mb-6">
-                      You're Protecting Yourself
+                      Sie schützen sich selbst
                     </h3>
                     <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-                      Stop second-guessing your instincts. Get the clarity you need to make informed decisions about
-                      your relationship.
+                      Hören Sie auf, Ihre Instinkte in Frage zu stellen. Holen Sie sich die Klarheit, die Sie benötigen, um fundierte Entscheidungen über Ihre Beziehung zu treffen.
                     </p>
                   </div>
 
@@ -1428,36 +1238,36 @@ export default function SigiloX() {
                       <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-r from-red-100 to-red-200 rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
                         <Heart className="w-6 h-6 sm:w-8 sm:h-8 text-red-500" />
                       </div>
-                      <h4 className="font-bold text-[#333333] mb-2 text-sm sm:text-base">RECENT ACTIVITY</h4>
-                      <p className="text-xs sm:text-sm text-gray-600">See when they last used dating apps</p>
+                      <h4 className="font-bold text-[#333333] mb-2 text-sm sm:text-base">LETZTE AKTIVITÄT</h4>
+                      <p className="text-xs sm:text-sm text-gray-600">Sehen Sie, wann sie Dating-Apps zuletzt verwendet haben</p>
                     </div>
                     <div className="text-center p-4 sm:p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
                       <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-r from-purple-100 to-purple-200 rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
                         <MapPin className="w-6 h-6 sm:w-8 sm:h-8 text-purple-500" />
                       </div>
-                      <h4 className="font-bold text-[#333333] mb-2 text-sm sm:text-base">EXACT LOCATION</h4>
-                      <p className="text-xs sm:text-sm text-gray-600">Where they've been swiping</p>
+                      <h4 className="font-bold text-[#333333] mb-2 text-sm sm:text-base">GENAUER STANDORT</h4>
+                      <p className="text-xs sm:text-sm text-gray-600">Wo sie geswipt haben</p>
                     </div>
                     <div className="text-center p-4 sm:p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
                       <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-r from-red-100 to-red-200 rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
                         <Camera className="w-6 h-6 sm:w-8 sm:h-8 text-red-500" />
                       </div>
-                      <h4 className="font-bold text-[#333333] mb-2 text-sm sm:text-base">HIDDEN PHOTOS</h4>
-                      <p className="text-xs sm:text-sm text-gray-600">Photos they don't want you to see</p>
+                      <h4 className="font-bold text-[#333333] mb-2 text-sm sm:text-base">VERSTECKTE FOTOS</h4>
+                      <p className="text-xs sm:text-sm text-gray-600">Fotos, die sie nicht sehen sollen</p>
                     </div>
                     <div className="text-center p-4 sm:p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
                       <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-r from-orange-100 to-orange-200 rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
                         <MessageCircle className="w-6 h-6 sm:w-8 sm:h-8 text-orange-500" />
                       </div>
-                      <h4 className="font-bold text-[#333333] mb-2 text-sm sm:text-base">PRIVATE CONVERSATIONS</h4>
-                      <p className="text-xs sm:text-sm text-gray-600">What they're really saying to others</p>
+                      <h4 className="font-bold text-[#333333] mb-2 text-sm sm:text-base">PRIVATE GESPRÄCHE</h4>
+                      <p className="text-xs sm:text-sm text-gray-600">Was sie wirklich zu anderen sagen</p>
                     </div>
                   </div>
 
                   {/* Testimonials Section - Enhanced with validation focus */}
                   <div className="text-center mb-8 sm:mb-12">
                     <h3 className="text-lg sm:text-2xl md:text-3xl font-bold text-[#333333] mb-6 sm:mb-8 px-2">
-                      You're Not Alone - See What Others Discovered
+                      Sie sind nicht allein - Sehen Sie, was andere entdeckt haben
                     </h3>
 
                     <div className="max-w-3xl mx-auto space-y-5 sm:space-y-6 mb-6 sm:mb-8">
@@ -1465,7 +1275,7 @@ export default function SigiloX() {
                       <div className="testimonial-card bg-white rounded-xl shadow-lg p-4 sm:p-5 flex items-start gap-4">
                         <img
                           src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHx8fGVufDB8MHx8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-                          alt="Sarah's photo"
+                          alt="Sarahs Foto"
                           className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover flex-shrink-0 border-2 border-gray-200 shadow-sm"
                           onError={(e) => {
                             e.currentTarget.src =
@@ -1475,7 +1285,7 @@ export default function SigiloX() {
                         <div className="flex-1 min-w-0 text-left">
                           <div className="mb-2">
                             <p className="font-bold text-[#333333] text-base sm:text-lg">Sarah, 32</p>
-                            <p className="text-xs sm:text-sm text-green-600 font-medium">✓ Verified User</p>
+                            <p className="text-xs sm:text-sm text-green-600 font-medium">✓ Verifizierte Benutzerin</p>
                           </div>
                           <div className="mb-3">
                             <svg
@@ -1486,8 +1296,7 @@ export default function SigiloX() {
                               <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z" />
                             </svg>
                             <p className="text-[#444444] text-base sm:text-lg leading-relaxed font-normal">
-                              I knew something was off. The report confirmed my worst fears, but at least now I could
-                              make an informed decision instead of living in constant anxiety.
+                              Ich wusste, dass etwas nicht stimmte. Der Bericht bestätigte meine schlimmsten Befürchtungen, aber zumindest konnte ich jetzt eine fundierte Entscheidung treffen, anstatt in ständiger Angst zu leben.
                             </p>
                           </div>
                           <div className="flex items-center text-[#FFD700] text-sm sm:text-base gap-1">
@@ -1495,12 +1304,11 @@ export default function SigiloX() {
                           </div>
                         </div>
                       </div>
-
-                      {/* Jennifer's Testimonial */}
+                                            {/* Jennifer's Testimonial */}
                       <div className="testimonial-card bg-white rounded-xl shadow-lg p-4 sm:p-5 flex items-start gap-4">
                         <img
                           src="https://images.unsplash.com/photo-1580489944761-15a19d654956?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29tYW4lMjBwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D"
-                          alt="Jennifer's photo"
+                          alt="Jennifers Foto"
                           className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover flex-shrink-0 border-2 border-gray-200 shadow-sm"
                           onError={(e) => {
                             e.currentTarget.src =
@@ -1511,7 +1319,7 @@ export default function SigiloX() {
                           <div className="mb-2">
                             <p className="font-bold text-[#333333] text-base sm:text-lg">Jennifer, 28</p>
                             <p className="text-xs sm:text-sm text-blue-600 font-medium">
-                              Investigation completed June 2025
+                              Untersuchung abgeschlossen Juni 2025
                             </p>
                           </div>
                           <div className="mb-3">
@@ -1523,8 +1331,7 @@ export default function SigiloX() {
                               <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z" />
                             </svg>
                             <p className="text-[#444444] text-base sm:text-lg leading-relaxed font-normal">
-                              Best $17 I ever spent. Saved me months of wondering and gave me the closure I needed. My
-                              instincts were right all along.
+                              Die besten 17 €, die ich je ausgegeben habe. Es hat mir monatelanges Grübeln erspart und mir den Abschluss gegeben, den ich brauchte. Meine Instinkte hatten die ganze Zeit recht.
                             </p>
                           </div>
                           <div className="flex items-center text-[#FFD700] text-sm sm:text-base gap-1">
@@ -1537,7 +1344,7 @@ export default function SigiloX() {
                       <div className="testimonial-card bg-white rounded-xl shadow-lg p-4 sm:p-5 flex items-start gap-4">
                         <img
                           src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHx8fGVufDB8MHx8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
-                          alt="Michelle's photo"
+                          alt="Michelles Foto"
                           className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover flex-shrink-0 border-2 border-gray-200 shadow-sm"
                           onError={(e) => {
                             e.currentTarget.src =
@@ -1547,7 +1354,7 @@ export default function SigiloX() {
                         <div className="flex-1 min-w-0 text-left">
                           <div className="mb-2">
                             <p className="font-bold text-[#333333] text-base sm:text-lg">Michelle, 35</p>
-                            <p className="text-xs sm:text-sm text-green-600 font-medium">✓ Verified User</p>
+                            <p className="text-xs sm:text-sm text-green-600 font-medium">✓ Verifizierte Benutzerin</p>
                           </div>
                           <div className="mb-3">
                             <svg
@@ -1558,8 +1365,7 @@ export default function SigiloX() {
                               <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z" />
                             </svg>
                             <p className="text-[#444444] text-base sm:text-lg leading-relaxed font-normal">
-                              I felt guilty for checking, but my instincts were right. Now I can move on with confidence
-                              instead of living in doubt.
+                              Ich fühlte mich schuldig, nachzusehen, aber meine Instinkte hatten recht. Jetzt kann ich mit Zuversicht weitermachen, anstatt im Zweifel zu leben.
                             </p>
                           </div>
                           <div className="flex items-center text-[#FFD700] text-sm sm:text-base gap-1">
@@ -1575,7 +1381,7 @@ export default function SigiloX() {
                       className="bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-3 sm:py-4 px-4 sm:px-6 text-sm sm:text-base md:text-lg rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 w-full max-w-sm mx-auto flex items-center justify-center text-center overflow-hidden"
                     >
                       <span className="block text-center leading-tight px-2 break-words whitespace-normal">
-                        🔍 START MY ANONYMOUS INVESTIGATION
+                        🔍 MEINE ANONYME UNTERSUCHUNG STARTEN
                       </span>
                     </Button>
                   </div>
@@ -1584,7 +1390,7 @@ export default function SigiloX() {
                   <div className="text-center px-4">
                     <p className="text-xs text-gray-500 flex items-center justify-center gap-2 font-medium">
                       <Shield className="w-4 h-4" />
-                      100% anonymous - Your investigation stays completely private
+                      100 % anonym – Ihre Untersuchung bleibt absolut privat
                     </p>
                   </div>
                 </div>
@@ -1632,10 +1438,10 @@ export default function SigiloX() {
                       <Wifi className="w-8 h-8 sm:w-10 sm:h-10 text-[#6C63FF]" />
                     </div>
                     <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4">
-                      🔍 Help Us Find What They're Hiding
+                      🔍 Helfen Sie uns zu finden, was sie verbergen
                     </h1>
                     <p className="text-gray-200 text-sm sm:text-base px-4 leading-relaxed">
-                      The more details you provide, the deeper we can dig. Everything stays 100% anonymous.
+                      Je mehr Details Sie angeben, desto tiefer können wir graben. Alles bleibt 100 % anonym.
                     </p>
                   </div>
 
@@ -1645,14 +1451,14 @@ export default function SigiloX() {
                       {/* Photo Upload - Moved to first position */}
                       <div>
                         <label className="block text-sm sm:text-base font-semibold text-[#333333] mb-3 sm:mb-4">
-                          Upload Their Photo for Facial Recognition
+                          Laden Sie ihr Foto für die Gesichtserkennung hoch
                         </label>
                         <div className="text-center">
                           {uploadedPhoto ? (
                             <div className="relative inline-block">
                               <img
                                 src={uploadedPhoto || "/placeholder.svg"}
-                                alt="Uploaded"
+                                alt="Hochgeladen"
                                 className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover border-4 border-blue-500 shadow-lg"
                               />
                               <button
@@ -1675,15 +1481,14 @@ export default function SigiloX() {
                           )}
                         </div>
                         <p className="text-xs sm:text-sm text-gray-500 mt-3 font-medium">
-                          We'll scan across all dating platforms to find matching profiles - even ones they think are
-                          hidden.
+                          Wir scannen alle Dating-Plattformen, um übereinstimmende Profile zu finden – selbst solche, von denen sie glauben, dass sie versteckt sind.
                         </p>
                       </div>
 
                       {/* Phone Number - Now second */}
                       <div>
                         <label className="block text-sm sm:text-base font-semibold text-[#333333] mb-2 sm:mb-3">
-                          WhatsApp Number They Use
+                          WhatsApp-Nummer, die sie verwenden
                         </label>
                         <div className="flex gap-2 sm:gap-3">
                           <div className="relative">
@@ -1709,7 +1514,7 @@ export default function SigiloX() {
                                 <div className="p-2">
                                   <input
                                     type="text"
-                                    placeholder="Search country..."
+                                    placeholder="Land suchen..."
                                     value={countrySearch}
                                     onChange={(e) => setCountrySearch(e.target.value)}
                                     className="w-full px-3 py-2 border rounded-lg text-sm"
@@ -1746,7 +1551,7 @@ export default function SigiloX() {
                           />
                         </div>
                         <p className="text-xs sm:text-sm text-gray-500 mt-2 font-medium">
-                          This helps us track their device activity and cross-reference with dating app usage patterns.
+                          Dies hilft uns, ihre Geräteaktivität zu verfolgen und mit den Nutzungsmustern von Dating-Apps abzugleichen.
                         </p>
 
                         {/* WhatsApp Photo Preview */}
@@ -1758,16 +1563,16 @@ export default function SigiloX() {
                               ) : (
                                 <img
                                   src={profilePhoto || "/placeholder.svg"}
-                                  alt="WhatsApp Profile"
+                                  alt="WhatsApp Profil"
                                   className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl object-cover border-2 border-gray-200"
                                 />
                               )}
                               <div className="flex-1">
                                 <p className="font-semibold text-[#333333] text-sm sm:text-base">
-                                  WhatsApp Profile Found
+                                  WhatsApp-Profil gefunden
                                 </p>
                                 <p className="text-xs sm:text-sm text-gray-600">
-                                  {isPhotoPrivate ? "Private photo detected" : "Profile photo loaded"}
+                                  {isPhotoPrivate ? "Privates Foto erkannt" : "Profilfoto geladen"}
                                 </p>
                               </div>
                               <div className="w-3 h-3 sm:w-4 sm:h-4 bg-green-500 rounded-full" />
@@ -1779,13 +1584,13 @@ export default function SigiloX() {
                       {/* Gender Selection */}
                       <div>
                         <label className="block text-sm sm:text-base font-semibold text-[#333333] mb-3 sm:mb-4">
-                          What gender are they?
+                          Welches Geschlecht haben sie?
                         </label>
                         <div className="grid grid-cols-3 gap-2 sm:gap-3">
                           {[
-                            { value: "masculino", label: "Male", icon: "👨" },
-                            { value: "feminino", label: "Female", icon: "👩" },
-                            { value: "nao-binario", label: "Non-binary", icon: "🧑" },
+                            { value: "masculino", label: "Männlich", icon: "👨" },
+                            { value: "feminino", label: "Weiblich", icon: "👩" },
+                            { value: "nao-binario", label: "Nicht-binär", icon: "🧑" },
                           ].map((option) => (
                             <button
                               key={option.value}
@@ -1803,18 +1608,17 @@ export default function SigiloX() {
                           ))}
                         </div>
                       </div>
-
-                      {/* Age Range */}
+                                            {/* Age Range */}
                       <div>
                         <label className="block text-sm sm:text-base font-semibold text-[#333333] mb-3 sm:mb-4">
-                          How Old Are They?
+                          Wie alt sind sie?
                         </label>
                         <div className="grid grid-cols-2 gap-2 sm:gap-3">
                           {[
-                            { value: "18-24", label: "18-24 years" },
-                            { value: "25-34", label: "25-34 years" },
-                            { value: "35-44", label: "35-44 years" },
-                            { value: "45-54", label: "45+ years" },
+                            { value: "18-24", label: "18-24 Jahre" },
+                            { value: "25-34", label: "25-34 Jahre" },
+                            { value: "35-44", label: "35-44 Jahre" },
+                            { value: "45-54", label: "45+ Jahre" },
                           ].map((option) => (
                             <button
                               key={option.value}
@@ -1831,21 +1635,21 @@ export default function SigiloX() {
                           ))}
                         </div>
                         <p className="text-xs sm:text-sm text-gray-500 mt-2 font-medium">
-                          This helps us narrow down the search parameters across dating platforms.
+                          Dies hilft uns, die Suchparameter auf den Dating-Plattformen einzugrenzen.
                         </p>
                       </div>
 
                       {/* Timeline Questions */}
                       <div>
                         <label className="block text-sm sm:text-base font-semibold text-[#333333] mb-3 sm:mb-4">
-                          When Did You Start Suspecting?
+                          Wann haben Sie angefangen, Verdacht zu schöpfen?
                         </label>
                         <div className="space-y-2 sm:space-y-3">
                           {[
-                            { value: "week", label: "Within the last week", desc: "(recent behavior changes)" },
-                            { value: "month", label: "Past month", desc: "(gradual distance/phone hiding)" },
-                            { value: "longer", label: "More than a month", desc: "(ongoing gut feeling)" },
-                            { value: "sure", label: "I just need to know for sure", desc: "" },
+                            { value: "week", label: "Innerhalb der letzten Woche", desc: "(aktuelle Verhaltensänderungen)" },
+                            { value: "month", label: "Letzten Monat", desc: "(allmähliche Distanz/Verstecken des Handys)" },
+                            { value: "longer", label: "Mehr als einen Monat", desc: "(anhaltendes Bauchgefühl)" },
+                            { value: "sure", label: "Ich muss es nur sicher wissen", desc: "" },
                           ].map((option) => (
                             <button
                               key={option.value}
@@ -1869,13 +1673,13 @@ export default function SigiloX() {
                       {/* Location Questions */}
                       <div>
                         <label className="block text-sm sm:text-base font-semibold text-[#333333] mb-3 sm:mb-4">
-                          Have They Been "Working Late" or Traveling?
+                          Haben sie „lange gearbeitet“ oder waren sie auf Reisen?
                         </label>
                         <div className="space-y-2 sm:space-y-3">
                           {[
-                            { value: "yes", label: "Yes", desc: '"New job demands" or unexplained trips' },
-                            { value: "no", label: "No", desc: "Behavior changes happened at home" },
-                            { value: "unknown", label: "I don't know", desc: "They're secretive about schedule" },
+                            { value: "yes", label: "Ja", desc: "„Neue berufliche Anforderungen“ oder ungeklärte Reisen" },
+                            { value: "no", label: "Nein", desc: "Verhaltensänderungen traten zu Hause auf" },
+                            { value: "unknown", label: "Ich weiß nicht", desc: "Sie sind geheimnisvoll bezüglich ihres Zeitplans" },
                           ].map((option) => (
                             <button
                               key={option.value}
@@ -1897,17 +1701,17 @@ export default function SigiloX() {
                       {/* Email Field - Added here */}
                       <div>
                         <label className="block text-sm sm:text-base font-semibold text-[#333333] mb-2 sm:mb-3">
-                          Your Email Address
+                          Ihre E-Mail-Adresse
                         </label>
                         <Input
                           type="email"
-                          placeholder="Enter your email address"
+                          placeholder="Geben Sie Ihre E-Mail-Adresse ein"
                           value={userEmail}
                           onChange={(e) => setUserEmail(e.target.value)}
                           className="py-2 sm:py-3 px-3 sm:px-4 text-sm sm:text-base rounded-xl border-gray-300 focus:border-blue-500 focus:ring-blue-500"
                         />
                         <p className="text-xs sm:text-sm text-gray-500 mt-2 font-medium">
-                          We'll send your complete report to this email address. 100% confidential.
+                          Wir senden Ihren vollständigen Bericht an diese E-Mail-Adresse. 100 % vertraulich.
                         </p>
                       </div>
 
@@ -1922,7 +1726,7 @@ export default function SigiloX() {
                         }`}
                       >
                         <span className="block text-center leading-tight px-2">
-                          {isSubmittingEmail ? "Processing..." : "🔍 START INVESTIGATION - FIND THE TRUTH"}
+                          {isSubmittingEmail ? "Wird verarbeitet..." : "🔍 UNTERSUCHUNG STARTEN - DIE WAHRHEIT FINDEN"}
                         </span>
                       </Button>
 
@@ -1930,7 +1734,7 @@ export default function SigiloX() {
                       <div className="text-center">
                         <p className="text-xs sm:text-sm text-gray-500 flex items-center justify-center gap-2 font-medium">
                           <Lock className="w-4 h-4" />
-                          Your data is encrypted and automatically deleted after 24 hours
+                          Ihre Daten werden verschlüsselt und nach 24 Stunden automatisch gelöscht
                         </p>
                       </div>
                     </CardContent>
@@ -1957,7 +1761,7 @@ export default function SigiloX() {
                     </div>
 
                     <h2 className="text-xl sm:text-2xl font-bold text-[#333333] mb-4 sm:mb-6">
-                      🔍 Scanning All Dating Platforms...
+                      🔍 Scannen aller Dating-Plattformen...
                     </h2>
 
                     <div className="mb-6 sm:mb-8">
@@ -1969,25 +1773,25 @@ export default function SigiloX() {
                       <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-gray-50 rounded-xl">
                         <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full animate-pulse" />
                         <span className="text-xs sm:text-sm text-gray-700 font-medium">
-                          Tinder, Bumble, Hinge scanning...
+                          Tinder, Bumble, Hinge werden gescannt...
                         </span>
                       </div>
                       <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-gray-50 rounded-xl">
                         <div className="w-2 h-2 sm:w-3 sm:h-3 bg-blue-500 rounded-full animate-pulse" />
                         <span className="text-xs sm:text-sm text-gray-700 font-medium">
-                          Facial recognition processing...
+                          Gesichtserkennung wird verarbeitet...
                         </span>
                       </div>
                       <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-gray-50 rounded-xl">
                         <div className="w-2 h-2 sm:w-3 sm:h-3 bg-purple-500 rounded-full animate-pulse" />
-                        <span className="text-xs sm:text-sm text-gray-700 font-medium">Location data analysis...</span>
+                        <span className="text-xs sm:text-sm text-gray-700 font-medium">Standortdatenanalyse...</span>
                       </div>
                     </div>
 
                     <div className="text-center">
                       <p className="text-xs sm:text-sm text-gray-500 flex items-center justify-center gap-2 font-medium">
                         <Lock className="w-4 h-4" />
-                        Secure and encrypted connection - No traces left behind
+                        Sichere und verschlüsselte Verbindung - Keine Spuren hinterlassen
                       </p>
                     </div>
                   </CardContent>
@@ -2014,7 +1818,7 @@ export default function SigiloX() {
                         <AlertTriangle className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                       </div>
                       <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#333333] mb-3 sm:mb-4">
-                        We Found What You Were Looking For...
+                        Wir haben gefunden, wonach Sie gesucht haben...
                       </h2>
                     </div>
 
@@ -2022,11 +1826,10 @@ export default function SigiloX() {
                     <div className="bg-gradient-to-r from-red-50 to-orange-50 border-2 border-red-200 rounded-xl p-4 sm:p-6 mb-6 sm:mb-8">
                       <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <AlertTriangle className="w-6 h-6 sm:w-8 sm:h-8 text-red-500 flex-shrink-0" />
-                        <h3 className="text-lg sm:text-xl font-bold text-red-700">ACTIVE DATING PROFILES DETECTED</h3>
+                        <h3 className="text-lg sm:text-xl font-bold text-red-700">AKTIVE DATING-PROFILE ENTDECKT</h3>
                       </div>
                       <p className="text-sm sm:text-base text-red-600 font-medium leading-relaxed">
-                        Our system discovered multiple active profiles linked to this person across 3 different dating
-                        platforms.
+                        Unser System hat mehrere aktive Profile dieser Person auf 3 verschiedenen Dating-Plattformen entdeckt.
                       </p>
                     </div>
 
@@ -2036,10 +1839,10 @@ export default function SigiloX() {
                         <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-500 flex-shrink-0 mt-1" />
                         <div>
                           <h4 className="font-bold text-[#333333] text-sm sm:text-base mb-1 sm:mb-2">
-                            Last Active: 18 hours ago
+                            Zuletzt aktiv: vor 18 Stunden
                           </h4>
                           <p className="text-xs sm:text-sm text-gray-600">
-                            Despite claiming they 'deleted everything'...
+                            Obwohl behauptet wird, „alles gelöscht“ zu haben...
                           </p>
                         </div>
                       </div>
@@ -2048,9 +1851,9 @@ export default function SigiloX() {
                         <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-500 flex-shrink-0 mt-1" />
                         <div>
                           <h4 className="font-bold text-[#333333] text-sm sm:text-base mb-1 sm:mb-2">
-                            3 Dating Apps Currently Active
+                            3 Dating-Apps derzeit aktiv
                           </h4>
-                          <p className="text-xs sm:text-sm text-gray-600">Tinder, Bumble, and one premium platform</p>
+                          <p className="text-xs sm:text-sm text-gray-600">Tinder, Bumble und eine Premium-Plattform</p>
                         </div>
                       </div>
 
@@ -2058,41 +1861,40 @@ export default function SigiloX() {
                         <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-500 flex-shrink-0 mt-1" />
                         <div>
                           <h4 className="font-bold text-[#333333] text-sm sm:text-base mb-1 sm:mb-2">
-                            Recent Conversations Detected
+                            Aktuelle Gespräche erkannt
                           </h4>
                           <p className="text-xs sm:text-sm text-gray-600">
-                            Active messaging with multiple matches this week
+                            Aktive Nachrichten mit mehreren Matches in dieser Woche
                           </p>
                         </div>
                       </div>
                     </div>
-
-                    {/* Next Step Box */}
+                                        {/* Next Step Box */}
                     <div className="bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-200 rounded-xl p-4 sm:p-6 mb-6 sm:mb-8">
                       <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
                         <div className="w-6 h-6 sm:w-8 sm:h-8 bg-blue-500 rounded-full flex items-center justify-center">
                           <span className="text-white text-xs sm:text-sm font-bold">💡</span>
                         </div>
                         <h3 className="text-base sm:text-lg font-bold text-blue-700">
-                          What You'll See in the Full Report:
+                          Was Sie im vollständigen Bericht sehen werden:
                         </h3>
                       </div>
                       <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-blue-600">
                         <li className="flex items-center gap-2 sm:gap-3">
                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-500 rounded-full flex-shrink-0" />
-                          Screenshots of all active profiles
+                          Screenshots aller aktiven Profile
                         </li>
                         <li className="flex items-center gap-2 sm:gap-3">
                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-500 rounded-full flex-shrink-0" />
-                          Recent conversations and what they're saying
+                          Aktuelle Gespräche und was sie sagen
                         </li>
                         <li className="flex items-center gap-2 sm:gap-3">
                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-500 rounded-full flex-shrink-0" />
-                          Exact locations where they've been swiping
+                          Genaue Standorte, an denen sie geswipt haben
                         </li>
                         <li className="flex items-center gap-2 sm:gap-3">
                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-500 rounded-full flex-shrink-0" />
-                          Timeline of all activity (you'll be shocked)
+                          Zeitachse aller Aktivitäten (Sie werden schockiert sein)
                         </li>
                       </ul>
                     </div>
@@ -2103,7 +1905,7 @@ export default function SigiloX() {
                       className="w-full bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-3 sm:py-4 text-sm sm:text-base md:text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 mb-4 sm:mb-6 overflow-hidden flex items-center justify-center text-center"
                     >
                       <span className="block text-center leading-tight px-2 break-words whitespace-normal">
-                        🔓 UNLOCK COMPLETE EVIDENCE – SEE EVERYTHING
+                        🔓 VOLLSTÄNDIGE BEWEISE FREISCHALTEN – ALLES SEHEN
                       </span>
                     </Button>
 
@@ -2111,7 +1913,7 @@ export default function SigiloX() {
                     <div className="text-center">
                       <p className="text-xs sm:text-sm text-gray-500 flex items-center justify-center gap-2 font-medium">
                         <Lock className="w-4 h-4" />
-                        Complete anonymity guaranteed - They'll never know you checked
+                        Vollständige Anonymität garantiert - Sie werden nie erfahren, dass Sie nachgesehen haben
                       </p>
                     </div>
                   </CardContent>
@@ -2137,7 +1939,7 @@ export default function SigiloX() {
                     </div>
 
                     <h2 className="text-xl sm:text-2xl font-bold text-[#333333] mb-4 sm:mb-6">
-                      📊 Generating Complete Report...
+                      📊 Vollständiger Bericht wird erstellt...
                     </h2>
 
                     <div className="mb-6 sm:mb-8">
@@ -2156,7 +1958,7 @@ export default function SigiloX() {
                         ) : (
                           <div className="w-4 h-4 sm:w-5 sm:h-5 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
                         )}
-                        <span className="text-xs sm:text-sm text-gray-700 font-medium">Profile photos analyzed</span>
+                        <span className="text-xs sm:text-sm text-gray-700 font-medium">Profilfotos analysiert</span>
                       </div>
                       <div
                         className={`flex items-center gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl ${
@@ -2181,7 +1983,7 @@ export default function SigiloX() {
                               : "text-gray-500"
                           }`}
                         >
-                          Processing conversations...
+                          Gespräche werden verarbeitet...
                         </span>
                       </div>
                       <div
@@ -2205,7 +2007,7 @@ export default function SigiloX() {
                             stepCompleted.finalizing || stepCompleted.conversations ? "text-gray-700" : "text-gray-500"
                           }`}
                         >
-                          Finalizing report...
+                          Bericht wird fertiggestellt...
                         </span>
                       </div>
                     </div>
@@ -2213,7 +2015,7 @@ export default function SigiloX() {
                     <div className="text-center">
                       <p className="text-xs sm:text-sm text-gray-500 flex items-center justify-center gap-2 font-medium">
                         <Lock className="w-4 h-4" />
-                        Encrypting sensitive data for your privacy
+                        Verschlüsselung sensibler Daten für Ihre Privatsphäre
                       </p>
                     </div>
                   </CardContent>
@@ -2237,7 +2039,7 @@ export default function SigiloX() {
                     <div className="relative">
                       <img
                         src={uploadedPhoto || profilePhoto || ""}
-                        alt="Profile"
+                        alt="Profil"
                         className="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover border-4 border-white shadow-lg"
                       />
                       {isPhotoPrivate && (
@@ -2255,8 +2057,8 @@ export default function SigiloX() {
                     <div className="flex items-center gap-2 sm:gap-3">
                       <AlertTriangle className="w-5 h-5 sm:w-6 sm:h-6 animate-pulse" />
                       <div>
-                        <h3 className="font-bold text-sm sm:text-base">🚨 PROFILE FOUND - THEY ARE ACTIVE ON TINDER</h3>
-                        <p className="text-xs sm:text-sm opacity-90">Last seen: Online now</p>
+                        <h3 className="font-bold text-sm sm:text-base">🚨 PROFIL GEFUNDEN - AKTIV AUF TINDER</h3>
+                        <p className="text-xs sm:text-sm opacity-90">Zuletzt gesehen: Jetzt online</p>
                       </div>
                     </div>
                   </div>
@@ -2265,10 +2067,10 @@ export default function SigiloX() {
                     <div className="flex items-center gap-2 sm:gap-3">
                       <AlertTriangle className="w-5 h-5 sm:w-6 sm:h-6" />
                       <div>
-                        <h3 className="font-bold text-sm sm:text-base">⚠️ ATTENTION: ACTIVE PROFILE FOUND!</h3>
+                        <h3 className="font-bold text-sm sm:text-base">⚠️ ACHTUNG: AKTIVES PROFIL GEFUNDEN!</h3>
                         <p className="text-xs sm:text-sm opacity-90">
-                          We confirm this number is linked to an ACTIVE Tinder profile. Latest usage records detected in{" "}
-                          {city || "your area"}.
+                          Wir bestätigen, dass diese Nummer mit einem AKTIVEN Tinder-Profil verknüpft ist. Die letzten Nutzungsdaten wurden in{" "}
+                          {city || "Ihrer Nähe"} festgestellt.
                         </p>
                       </div>
                     </div>
@@ -2279,19 +2081,19 @@ export default function SigiloX() {
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
                   <div className="bg-white rounded-xl p-3 sm:p-4 text-center shadow-lg">
                     <div className="text-xl sm:text-2xl font-bold text-red-500 mb-1">6</div>
-                    <div className="text-xs sm:text-sm text-gray-600 font-medium">MATCHES (7 DAYS)</div>
+                    <div className="text-xs sm:text-sm text-gray-600 font-medium">MATCHES (7 TAGE)</div>
                   </div>
                   <div className="bg-white rounded-xl p-3 sm:p-4 text-center shadow-lg">
                     <div className="text-xl sm:text-2xl font-bold text-orange-500 mb-1">30</div>
-                    <div className="text-xs sm:text-sm text-gray-600 font-medium">LIKES (7 DAYS)</div>
+                    <div className="text-xs sm:text-sm text-gray-600 font-medium">LIKES (7 TAGE)</div>
                   </div>
                   <div className="bg-white rounded-xl p-3 sm:p-4 text-center shadow-lg">
                     <div className="text-xl sm:text-2xl font-bold text-purple-500 mb-1">4</div>
-                    <div className="text-xs sm:text-sm text-gray-600 font-medium">ACTIVE CHATS</div>
+                    <div className="text-xs sm:text-sm text-gray-600 font-medium">AKTIVE CHATS</div>
                   </div>
                   <div className="bg-white rounded-xl p-3 sm:p-4 text-center shadow-lg">
                     <div className="text-xl sm:text-2xl font-bold text-green-500 mb-1">18h</div>
-                    <div className="text-xs sm:text-sm text-gray-600 font-medium">LAST ACTIVE</div>
+                    <div className="text-xs sm:text-sm text-gray-600 font-medium">ZULETZT AKTIV</div>
                   </div>
                 </div>
 
@@ -2299,10 +2101,10 @@ export default function SigiloX() {
                 <Card className="bg-white rounded-2xl shadow-lg border-0 mb-6 sm:mb-8">
                   <CardContent className="p-4 sm:p-6">
                     <h3 className="text-lg sm:text-xl font-bold text-[#333333] mb-4 sm:mb-6">
-                      🔥 RECENT MATCHES FOUND
+                      🔥 KÜRZLICHE MATCHES GEFUNDEN
                     </h3>
                        <p className="text-sm text-gray-600 text-left mb-6">
-    Tap on a match to view more information
+    Tippen Sie auf ein Match, um weitere Informationen anzuzeigen
   </p>
                     <div className="space-y-4">
                       {generatedProfiles.map((profile, index) => (
@@ -2332,8 +2134,8 @@ export default function SigiloX() {
                               </h4>
                               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                             </div>
-                            <p className="text-sm text-gray-600">Last seen: {profile.lastSeen}</p>
-                            <p className="text-sm text-green-600">Active chat: frequently online</p>
+                            <p className="text-sm text-gray-600">Zuletzt gesehen: {profile.lastSeen}</p>
+                            <p className="text-sm text-green-600">Aktiver Chat: häufig online</p>
                           </div>
                         </div>
                       ))}
@@ -2344,9 +2146,9 @@ export default function SigiloX() {
                 {/* Photos Section */}
                 <Card className="bg-white rounded-2xl shadow-lg border-0 mb-6 sm:mb-8">
                   <CardContent className="p-4 sm:p-6">
-                    <h3 className="text-lg sm:text-xl font-bold text-[#333333] mb-4 sm:mb-6">📸 CENSORED PHOTOS</h3>
+                    <h3 className="text-lg sm:text-xl font-bold text-[#333333] mb-4 sm:mb-6">📸 ZENSIERTE FOTOS</h3>
                     <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
-                      See all their profile photos (including the ones you've never seen)
+                      Sehen Sie alle ihre Profilfotos (einschließlich derer, die Sie noch nie gesehen haben)
                     </p>
 
                     {/* Carousel */}
@@ -2360,22 +2162,21 @@ export default function SigiloX() {
                             <div key={index} className="w-full flex-shrink-0 relative">
                               <img
                                 src={image || "/placeholder.svg"}
-                                alt={`Chat conversation ${index + 1}`}
+                                alt={`Chat-Unterhaltung ${index + 1}`}
                                 className="w-full h-48 sm:h-64 object-cover"
                                 style={{ filter: "blur(8px) brightness(0.7)" }}
                               />
                               <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                                 <div className="text-center">
                                   <Lock className="w-8 h-8 sm:w-10 sm:h-10 text-white mx-auto mb-2 opacity-80" />
-                                  <p className="text-white text-xs font-bold opacity-80">BLOCKED</p>
+                                  <p className="text-white text-xs font-bold opacity-80">GESPERRT</p>
                                 </div>
                               </div>
                             </div>
                           ))}
                         </div>
                       </div>
-
-                      {/* Carousel Controls */}
+                                            {/* Carousel Controls */}
                       <button
                         onClick={prevSlide}
                         className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 transition-colors"
@@ -2417,10 +2218,10 @@ export default function SigiloX() {
                         <Lock className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                       </div>
                       <h3 className="text-xl sm:text-2xl font-bold text-[#333333] mb-3 sm:mb-4">
-                        🔓 UNLOCK COMPLETE REPORT
+                        🔓 VOLLSTÄNDIGEN BERICHT FREISCHALTEN
                       </h3>
                       <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
-                        Get instant access to the full report with uncensored photos and complete conversation history.
+                        Erhalten Sie sofortigen Zugriff auf den vollständigen Bericht mit unzensierten Fotos und dem kompletten Gesprächsverlauf.
                       </p>
                     </div>
 
@@ -2428,14 +2229,13 @@ export default function SigiloX() {
                     <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-4 sm:p-6 rounded-xl shadow-lg mb-4 sm:mb-6">
                       <div className="flex items-center justify-center gap-2 sm:gap-3 mb-3">
                         <AlertTriangle className="w-6 h-6 sm:w-8 sm:h-8 animate-pulse" />
-                        <span className="font-bold text-lg sm:text-xl">THE REPORT WILL BE DELETED IN:</span>
+                        <span className="font-bold text-lg sm:text-xl">DER BERICHT WIRD GELÖSCHT IN:</span>
                       </div>
                       <div className="text-center mb-3">
                         <div className="text-3xl sm:text-4xl font-bold mb-2">{formatTime(timeLeft)}</div>
                       </div>
                       <p className="text-sm sm:text-base text-center leading-relaxed opacity-90">
-                        After the time expires, this report will be permanently deleted for privacy reasons. This offer
-                        cannot be recovered at a later date.
+                        Nach Ablauf der Zeit wird dieser Bericht aus Datenschutzgründen dauerhaft gelöscht. Dieses Angebot kann zu einem späteren Zeitpunkt nicht wiederhergestellt werden.
                       </p>
                     </div>
 
@@ -2446,14 +2246,13 @@ export default function SigiloX() {
   rel="noopener noreferrer"
   className="block w-full text-center bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-4 sm:py-6 text-sm sm:text-base md:text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 mb-4 sm:mb-6 overflow-hidden"
 >
-  <span className="block text-center leading-tight px-2"> 🔓 UNLOCK MY REPORT - I'M READY FOR THE TRUTH </span>
+  <span className="block text-center leading-tight px-2"> 🔓 MEINEN BERICHT FREISCHALTEN - ICH BIN BEREIT FÜR DIE WAHRHEIT </span>
 </a>
 
                     {/* Final Reassurance */}
                     <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 sm:p-6 mb-4 sm:mb-6">
                       <p className="text-sm sm:text-base text-blue-700 font-medium leading-relaxed">
-                        You're not invading privacy - you're protecting your emotional well-being. You have the right to
-                        make informed decisions about your relationship.
+                        Sie dringen nicht in die Privatsphäre ein – Sie schützen Ihr emotionales Wohlbefinden. Sie haben das Recht, fundierte Entscheidungen über Ihre Beziehung zu treffen.
                       </p>
                     </div>
 
@@ -2468,10 +2267,10 @@ export default function SigiloX() {
                         <div className="flex-1 text-left">
                           <div className="mb-2">
                             <p className="font-bold text-[#333333] text-sm sm:text-base">Sarah M.</p>
-                            <p className="text-xs sm:text-sm text-green-600 font-medium">✓ Verified User</p>
+                            <p className="text-xs sm:text-sm text-green-600 font-medium">✓ Verifizierte Benutzerin</p>
                           </div>
                           <p className="text-sm sm:text-base text-gray-600 italic leading-relaxed">
-                            "I wish I had done this months ago. Would have saved me so much anxiety and wasted time."
+                            „Ich wünschte, ich hätte das schon vor Monaten getan. Hätte mir so viel Angst und verschwendete Zeit erspart.“
                           </p>
                           <div className="flex items-center text-[#FFD700] text-sm mt-2">
                             <span>⭐⭐⭐⭐⭐</span>
@@ -2545,7 +2344,7 @@ export default function SigiloX() {
                       <div className="p-6 space-y-6">
                         {/* About Me Section */}
                         <div>
-                          <h3 className="text-xl font-bold text-gray-900 mb-3">About Me</h3>
+                          <h3 className="text-xl font-bold text-gray-900 mb-3">Über mich</h3>
                           <p className="text-gray-700 leading-relaxed">{selectedProfile.bio}</p>
                         </div>
 
@@ -2564,11 +2363,10 @@ export default function SigiloX() {
                             </div>
                           </div>
                         )}
-
-                        {/* My Interests Section */}
+                                                {/* My Interests Section */}
                         {selectedProfile.interests && (
                           <div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-3">My Interests</h3>
+                            <h3 className="text-xl font-bold text-gray-900 mb-3">Meine Interessen</h3>
                             <div className="flex flex-wrap gap-2">
                               {selectedProfile.interests.map((interest: string, index: number) => (
                                 <span
@@ -2585,10 +2383,10 @@ export default function SigiloX() {
                         {/* Action Buttons */}
                         <div className="flex gap-4 pt-4">
                           <button className="flex-1 bg-gray-200 text-gray-700 py-3 rounded-full font-semibold hover:bg-gray-300 transition-colors">
-                            Pass
+                            Überspringen
                           </button>
                           <button className="flex-1 bg-gradient-to-r from-pink-500 to-red-500 text-white py-3 rounded-full font-semibold hover:bg-pink-600 hover:to-red-600 transition-colors">
-                            Like
+                            Gefällt mir
                           </button>
                         </div>
                       </div>
@@ -2610,34 +2408,34 @@ export default function SigiloX() {
                       <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-r from-red-500 to-pink-600 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 shadow-lg">
                         <Heart className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                       </div>
-                      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#333333] mb-3 sm:mb-4"> You Deserve to Know the Whole Truth </h1>
-                      <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6 leading-relaxed"> Stop wondering. Stop losing sleep. Get every detail - completely confidential. </p>
+                      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#333333] mb-3 sm:mb-4"> Sie verdienen es, die ganze Wahrheit zu erfahren </h1>
+                      <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6 leading-relaxed"> Hören Sie auf, sich zu wundern. Hören Sie auf, den Schlaf zu verlieren. Erhalten Sie jedes Detail – absolut vertraulich. </p>
                       <div className="bg-gradient-to-r from-red-50 to-pink-50 border-2 border-red-200 rounded-xl p-4 sm:p-6">
-                        <p className="text-sm sm:text-base text-red-700 font-semibold leading-relaxed"> Your instincts were right. Now see exactly what they've been hiding while looking you in the eye and lying. </p>
+                        <p className="text-sm sm:text-base text-red-700 font-semibold leading-relaxed"> Ihre Instinkte hatten recht. Sehen Sie jetzt genau, was sie verborgen haben, während sie Ihnen in die Augen sahen und logen. </p>
                       </div>
                     </div>
 
                     {/* Price Section */}
                     <div className="mb-6 sm:mb-8">
                       <div className="flex items-center justify-center gap-4 sm:gap-6 mb-4 sm:mb-6">
-                        <div className="text-2xl sm:text-3xl text-gray-400 line-through">$47.00</div>
-                        <div className="text-4xl sm:text-5xl font-bold text-[#FF0066]">$17.00</div>
+                        <div className="text-2xl sm:text-3xl text-gray-400 line-through">47,00 €</div>
+                        <div className="text-4xl sm:text-5xl font-bold text-[#FF0066]">17,00 €</div>
                       </div>
-                      <div className="inline-flex items-center gap-2 bg-gradient-to-r from-red-500 to-pink-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base font-bold mb-4"> 🔥 62% OFF - LIMITED TIME </div>
-                      <p className="text-sm sm:text-base text-gray-600 font-medium"> One-time payment for lifetime access to your complete report </p>
+                      <div className="inline-flex items-center gap-2 bg-gradient-to-r from-red-500 to-pink-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm sm:text-base font-bold mb-4"> 🔥 62% RABATT - BEGRENZTE ZEIT </div>
+                      <p className="text-sm sm:text-base text-gray-600 font-medium"> Einmalige Zahlung für lebenslangen Zugriff auf Ihren vollständigen Bericht </p>
                     </div>
 
                     {/* What You'll Unlock */}
                     <div className="text-left mb-6 sm:mb-8">
-                      <h3 className="text-lg sm:text-xl font-bold text-[#333333] mb-4 sm:mb-6 text-center"> What You'll Unlock: </h3>
+                      <h3 className="text-lg sm:text-xl font-bold text-[#333333] mb-4 sm:mb-6 text-center"> Was Sie freischalten werden: </h3>
                       <div className="space-y-3 sm:space-y-4">
                         <div className="flex items-start gap-3 sm:gap-4">
                           <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-500 flex-shrink-0 mt-1" />
-                          <span className="text-sm sm:text-base text-gray-700 font-medium"> Every Single Profile Photo (including ones they think you'll never see) </span>
+                          <span className="text-sm sm:text-base text-gray-700 font-medium"> Jedes einzelne Profilfoto (einschließlich derer, von denen sie glauben, dass Sie sie nie sehen werden) </span>
                         </div>
                         <div className="flex items-start gap-3 sm:gap-4">
                           <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-500 flex-shrink-0 mt-1" />
-                          <span className="text-sm sm:text-base text-gray-700 font-medium"> Complete Conversation History (see exactly what they're telling other people) </span>
+                          <span className="text-sm sm:text-base text-gray-700 font-medium"> Vollständiger Gesprächsverlauf (sehen Sie genau, was sie anderen Leuten erzählen) </span>
                         </div>
                       </div>
                     </div>
