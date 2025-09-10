@@ -1726,7 +1726,7 @@ export default function SigiloX() {
                         }`}
                       >
                         <span className="block text-center leading-tight px-2">
-                          {isSubmittingEmail ? "Wird verarbeitet..." : "🔍 UNTERSUCHUNG STARTEN - DIE WAHRHEIT FINDEN"}
+                          {isSubmittingEmail ? "Wird verarbeitet..." : "🔍 UNTERSUCHUNG STARTEN"}
                         </span>
                       </Button>
 
