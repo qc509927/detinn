@@ -10,16 +10,16 @@ export default function ThanksPage() {
   const router = useRouter()
 
   const reportItems = [
-    "All profile photos (including private ones)",
-    "Complete conversation history and messages",
-    "Exact location data and dating activity",
-    "Detailed activity timeline and patterns",
+    "Alle Profilfotos (einschließlich privater)",
+    "Vollständiger Gesprächsverlauf und Nachrichten",
+    "Genaue Standortdaten und Dating-Aktivitäten",
+    "Detaillierte Aktivitätszeitleiste und -muster",
   ]
 
   const processSteps = [
-    { icon: CheckCircle, label: "Payment Confirmed", status: "completed" },
-    { icon: Clock, label: "Report Processing", status: "current" },
-    { icon: Mail, label: "Email Delivery", status: "pending" },
+    { icon: CheckCircle, label: "Zahlung bestätigt", status: "completed" },
+    { icon: Clock, label: "Bericht wird bearbeitet", status: "current" },
+    { icon: Mail, label: "E-Mail-Zustellung", status: "pending" },
   ]
 
   return (
@@ -42,9 +42,9 @@ export default function ThanksPage() {
               <CheckCircle className="w-10 h-10 text-white" />
             </motion.div>
 
-            <h1 className="text-4xl font-bold text-white mb-2">🎉 Payment Successful!</h1>
+            <h1 className="text-4xl font-bold text-white mb-2">🎉 Zahlung erfolgreich!</h1>
             <p className="text-xl text-gray-300">
-              Thank you for your purchase. Your complete report is being processed.
+              Vielen Dank für Ihren Kauf. Ihr vollständiger Bericht wird gerade bearbeitet.
             </p>
           </div>
 
@@ -53,9 +53,9 @@ export default function ThanksPage() {
             <CardContent className="p-8">
               {/* Report Delivery Section */}
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">📩 Complete Report Delivery</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">📩 Zustellung des vollständigen Berichts</h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  <strong>Estimated Delivery:</strong> Within 7 days
+                  <strong>Voraussichtliche Zustellung:</strong> Innerhalb von 7 Tagen
                 </p>
 
                 {/* Process Steps */}
@@ -112,7 +112,7 @@ export default function ThanksPage() {
 
               {/* What's Included */}
               <div className="mb-8">
-                <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">📦 What's Included</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">📦 Was ist inbegriffen</h3>
                 <div className="space-y-3">
                   {reportItems.map((item, index) => (
                     <motion.div
@@ -139,12 +139,11 @@ export default function ThanksPage() {
                 <div className="flex items-start">
                   <AlertTriangle className="w-6 h-6 text-yellow-600 mr-3 flex-shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="font-semibold text-yellow-800 mb-2">⚠️ Important Notice</h4>
+                    <h4 className="font-semibold text-yellow-800 mb-2">⚠️ Wichtiger Hinweis</h4>
                     <p className="text-yellow-700 leading-relaxed">
-                      Please check your email regularly, including your spam/junk folder. The report will be sent from a
-                      secure email address.
+                      Bitte überprüfen Sie regelmäßig Ihre E-Mails, einschließlich Ihres Spam-/Junk-Ordners. Der Bericht wird von einer sicheren E-Mail-Adresse gesendet.
                       <br />
-                      <strong>If you don't receive it within 7 days, please contact our support team.</strong>
+                      <strong>Wenn Sie ihn nicht innerhalb von 7 Tagen erhalten, kontaktieren Sie bitte unser Support-Team.</strong>
                     </p>
                   </div>
                 </div>
@@ -154,15 +153,15 @@ export default function ThanksPage() {
               <div className="flex justify-center items-center space-x-6 mb-8 text-sm text-gray-600">
                 <div className="flex items-center">
                   <Shield className="w-4 h-4 mr-1 text-green-600" />
-                  SSL Secured
+                  SSL-gesichert
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-4 h-4 mr-1 text-blue-600" />
-                  Verified Payment
+                  Verifizierte Zahlung
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-4 h-4 mr-1 text-purple-600" />
-                  Email Protected
+                  E-Mail geschützt
                 </div>
               </div>
 
@@ -177,7 +176,7 @@ export default function ThanksPage() {
                   onClick={() => router.push("/")}
                   className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
                 >
-                  <ArrowLeft className="w-5 h-5 mr-2" />← Back to Home
+                  <ArrowLeft className="w-5 h-5 mr-2" />← Zurück zur Startseite
                 </Button>
               </motion.div>
             </CardContent>
@@ -191,7 +190,7 @@ export default function ThanksPage() {
             className="text-center mt-8 text-gray-400 text-sm"
           >
             <p>
-              Need help? Contact our support team at{" "}
+              Brauchen Sie Hilfe? Kontaktieren Sie unser Support-Team unter{" "}
               <a href="mailto:support@tindercheck.online" className="text-blue-400 hover:underline">
                 support@tindercheck.online
               </a>

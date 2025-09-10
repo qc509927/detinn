@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emergency Alert</title>
+    <title>Notfallwarnung</title>
     
     <!-- Inclui o Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -53,8 +53,8 @@
     <!-- Emergency Alert Header -->
     <div class="bg-red-600 text-white text-center py-4 px-4">
         <div class="max-w-4xl mx-auto fade-in-scale">
-            <h1 class="text-2xl sm:text-3xl font-bold mb-2">🚨 EMERGENCY ALERT!</h1>
-            <p class="text-lg sm:text-xl">Your relationship could be in danger!</p>
+            <h1 class="text-2xl sm:text-3xl font-bold mb-2">🚨 NOTFALLWARNUNG!</h1>
+            <p class="text-lg sm:text-xl">Ihre Beziehung könnte in Gefahr sein!</p>
         </div>
     </div>
 
@@ -63,11 +63,11 @@
         <div class="border border-orange-200 bg-orange-50 rounded-lg shadow-sm">
             <div class="p-6 text-center">
                 <h2 class="text-xl sm:text-2xl font-bold text-gray-800 mb-4">
-                    Our algorithm based on numbers, data, using words and photos, detected suspicious messages and files on WhatsApp...
+                    Unser Algorithmus, basierend auf Zahlen, Daten, Wörtern und Fotos, hat verdächtige Nachrichten und Dateien auf WhatsApp entdeckt...
                 </h2>
                 <p class="text-lg font-semibold text-green-600">
-                    Report exported with 98% accuracy on:
-                    <span id="current-datetime" class="text-blue-600">--/--/---- --:--</span>
+                    Bericht mit 98% Genauigkeit exportiert am:
+                    <span id="current-datetime" class="text-blue-600">--.--.---- --:--</span>
                 </p>
             </div>
         </div>
@@ -75,7 +75,7 @@
         <!-- Profile Photo and Phone (exibido via JS se houver dados na URL) -->
         <div id="profile-card" class="border rounded-lg shadow-sm bg-white" style="display: none;">
             <div class="p-6 text-center">
-                <img id="profile-photo" src="" alt="Profile" class="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mx-auto mb-4 border-4 border-green-500" style="display: none;">
+                <img id="profile-photo" src="" alt="Profil" class="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mx-auto mb-4 border-4 border-green-500" style="display: none;">
                 <p id="phone-number" class="text-xl font-semibold text-green-600"></p>
             </div>
         </div>
@@ -84,10 +84,10 @@
         <div class="border border-red-200 bg-red-50 rounded-lg shadow-sm">
             <div class="p-6">
                 <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">
-                    We found <span class="text-red-600 font-bold">58</span> suspicious messages:
+                    Wir haben <span class="text-red-600 font-bold">58</span> verdächtige Nachrichten gefunden:
                 </h3>
                 <div id="suspicious-stats-list" class="space-y-3">
-                    <!-- Conteúdo gerado por JavaScript -->
+                    <!-- Inhalt wird durch JavaScript generiert -->
                 </div>
             </div>
         </div>
@@ -96,30 +96,30 @@
         <div class="border border-blue-200 bg-blue-50 rounded-lg shadow-sm">
             <div class="p-6">
                 <div class="text-center mb-6">
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">We detected suspicious messages on WhatsApp.</h3>
-                    <p class="text-red-600 font-semibold">(Get app access to see the messages.)</p>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Wir haben verdächtige Nachrichten auf WhatsApp entdeckt.</h3>
+                    <p class="text-red-600 font-semibold">(Holen Sie sich App-Zugriff, um die Nachrichten zu sehen.)</p>
                 </div>
                 <div class="bg-white rounded-lg p-4 max-w-sm mx-auto border shadow-lg">
                     <div class="space-y-3">
                         <div class="flex items-center gap-3 p-2 hover:bg-gray-50 rounded">
                             <div class="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center"><svg class="w-5 h-5 text-gray-600" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div>
                             <div class="flex-1 min-w-0">
-                                <div class="flex justify-between items-center"><span class="font-semibold text-sm">Unknown Contact</span><span class="text-xs text-gray-500">15:08</span></div>
-                                <p class="text-sm text-gray-600 truncate" style="filter: blur(2px);">Hey beautiful...</p>
+                                <div class="flex justify-between items-center"><span class="font-semibold text-sm">Unbekannter Kontakt</span><span class="text-xs text-gray-500">15:08</span></div>
+                                <p class="text-sm text-gray-600 truncate" style="filter: blur(2px);">Hallo Schöne...</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3 p-2 hover:bg-gray-50 rounded">
                             <div class="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center"><svg class="w-5 h-5 text-gray-600" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div>
                             <div class="flex-1 min-w-0">
-                                <div class="flex justify-between items-center"><span class="font-semibold text-sm">Secret Chat</span><span class="text-xs text-gray-500">14:32</span></div>
-                                <p class="text-sm text-gray-600 truncate" style="filter: blur(2px);">Can't wait to see you...</p>
+                                <div class="flex justify-between items-center"><span class="font-semibold text-sm">Geheimer Chat</span><span class="text-xs text-gray-500">14:32</span></div>
+                                <p class="text-sm text-gray-600 truncate" style="filter: blur(2px);">Kann es kaum erwarten...</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3 p-2 hover:bg-gray-50 rounded">
                             <div class="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center"><svg class="w-5 h-5 text-gray-600" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div>
                             <div class="flex-1 min-w-0">
-                                <div class="flex justify-between items-center"><span class="font-semibold text-sm">Hidden</span><span class="text-xs text-gray-500">13:45</span></div>
-                                <p class="text-sm text-gray-600 truncate" style="filter: blur(2px);">Delete this message...</p>
+                                <div class="flex justify-between items-center"><span class="font-semibold text-sm">Versteckt</span><span class="text-xs text-gray-500">13:45</span></div>
+                                <p class="text-sm text-gray-600 truncate" style="filter: blur(2px);">Lösche diese Nachricht...</p>
                             </div>
                         </div>
                     </div>
@@ -131,16 +131,16 @@
         <div class="border border-purple-200 bg-purple-50 rounded-lg shadow-sm">
             <div class="p-6">
                 <div class="text-center mb-6">
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">We detected photos and videos containing nudity.</h3>
-                    <p class="text-red-600 font-semibold">(Get app access to see the uncensored photos.)</p>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Wir haben Fotos und Videos mit Nacktheit entdeckt.</h3>
+                    <p class="text-red-600 font-semibold">(Holen Sie sich App-Zugriff, um die unzensierten Fotos zu sehen.)</p>
                 </div>
                 <div class="grid grid-cols-3 sm:grid-cols-4 gap-2 max-w-md mx-auto">
-                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face" alt="Censored 1" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
-                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="Censored 2" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
-                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face" alt="Censored 3" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
-                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" alt="Censored 4" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
-                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face" alt="Censored 5" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
-                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face" alt="Censored 6" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
+                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face" alt="Zensiert 1" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
+                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="Zensiert 2" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
+                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face" alt="Zensiert 3" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
+                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" alt="Zensiert 4" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
+                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face" alt="Zensiert 5" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
+                    <div class="relative aspect-square"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face" alt="Zensiert 6" class="w-full h-full object-cover rounded-lg" style="filter: blur(12px) brightness(0.7);"><div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg"><svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div></div>
                 </div>
             </div>
         </div>
@@ -148,11 +148,11 @@
         <!-- Location Tracking -->
         <div class="border border-green-200 bg-green-50 rounded-lg shadow-sm">
             <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">The phone you want to track has been recently located here.</h3>
+                <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">Das gesuchte Telefon wurde kürzlich hier geortet.</h3>
                 <div class="text-center mb-4">
                     <div class="inline-flex items-center gap-2 bg-blue-100 px-4 py-2 rounded-full">
                         <svg class="w-5 h-5 text-blue-600" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                        <span id="location-text" class="font-semibold text-blue-800">Locating...</span>
+                        <span id="location-text" class="font-semibold text-blue-800">Orte...</span>
                     </div>
                 </div>
                 <!-- Container para o Mapa Real do Leaflet -->
@@ -167,15 +167,15 @@
                     <div class="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl mx-auto mb-4 flex items-center justify-center">
                         <svg class="w-12 h-12 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 13.37a1 1 0 0 1-1.41-1.41l1.41-1.41a1 1 0 0 1 1.41 1.41L2 13.37zM6.03 21.3a1 1 0 0 1-1.41-1.41l1.41-1.41a1 1 0 0 1 1.41 1.41l-1.41 1.41zM21.3 6.03a1 1 0 0 1-1.41-1.41l1.41-1.41a1 1 0 0 1 1.41 1.41l-1.41 1.41z"></path><path d="M19.07 19.07a1 1 0 0 1-1.41-1.41l1.41-1.41a1 1 0 0 1 1.41 1.41l-1.41 1.41zM2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0"></path><path d="M12 2a1 1 0 0 1 1 1v2a1 1 0 0 1-2 0V3a1 1 0 0 1 1-1zM4.93 4.93a1 1 0 0 1 1.41 0l1.41 1.41a1 1 0 0 1-1.41 1.41L4.93 6.34a1 1 0 0 1 0-1.41zM16.24 16.24a1 1 0 0 1 1.41 0l1.41 1.41a1 1 0 0 1-1.41 1.41l-1.41-1.41a1 1 0 0 1 0-1.41zM4.22 18.36a1 1 0 0 1 1.41-1.41l1.41 1.41a1 1 0 0 1-1.41 1.41l-1.41-1.41z"></path><circle cx="12" cy="12" r="4"></circle></svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">You've reached the end of your free consultation.</h3>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Sie haben das Ende Ihrer kostenlosen Beratung erreicht.</h3>
                 </div>
                 <div class="space-y-4 text-left max-w-2xl mx-auto text-gray-700">
-                    <p>I know you're tired of guessing and you want real answers.</p>
-                    <p>Our satellite tracking system is the most advanced technology for discovering what's happening. But here's the catch: keeping the satellites and servers running 24/7 is expensive.</p>
-                    <p>That's why, unfortunately, we can't provide more than 5% of the information we discover for free.</p>
-                    <p>The good news? You don't need to spend a fortune hiring a private investigator.</p>
-                    <p>We've developed an app that puts this same technology in your hands and allows you to track everything discreetly and efficiently by yourself.</p>
-                    <p class="font-semibold text-red-600">It's time to stop guessing and discover the truth. The answers are waiting for you. Click now and get instant access – before it's too late!</p>
+                    <p>Ich weiß, dass Sie es leid sind zu raten und echte Antworten wollen.</p>
+                    <p>Unser Satelliten-Tracking-System ist die fortschrittlichste Technologie, um herauszufinden, was passiert. Aber hier ist der Haken: Die Satelliten und Server rund um die Uhr am Laufen zu halten, ist teuer.</p>
+                    <p>Deshalb können wir leider nicht mehr als 5% der Informationen, die wir entdecken, kostenlos zur Verfügung stellen.</p>
+                    <p>Die gute Nachricht? Sie müssen kein Vermögen ausgeben, um einen Privatdetektiv zu engagieren.</p>
+                    <p>Wir haben eine App entwickelt, die Ihnen dieselbe Technologie in die Hände gibt und es Ihnen ermöglicht, alles diskret und effizient selbst zu verfolgen.</p>
+                    <p class="font-semibold text-red-600">Es ist an der Zeit, mit dem Raten aufzuhören und die Wahrheit zu entdecken. Die Antworten warten auf Sie. Klicken Sie jetzt und erhalten Sie sofortigen Zugriff – bevor es zu spät ist!</p>
                 </div>
             </div>
         </div>
@@ -184,18 +184,18 @@
         <div class="border border-red-500 bg-gradient-to-r from-red-50 to-orange-50 rounded-lg shadow-sm">
             <div class="p-6">
                 <div class="text-center mb-6">
-                    <p class="text-lg font-semibold text-gray-700">Offer expires in: <span id="countdown-timer" class="text-red-600 font-mono">24:00:00</span></p>
+                    <p class="text-lg font-semibold text-gray-700">Angebot läuft ab in: <span id="countdown-timer" class="text-red-600 font-mono">24:00:00</span></p>
                 </div>
                 <div class="text-center mb-6">
                     <div class="inline-block bg-white rounded-2xl p-6 shadow-lg">
                         <div class="space-y-2 text-left mb-6">
-                            <div class="flex items-center gap-2"><svg class="w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><span class="text-sm">30-day guarantee</span></div>
-                            <div class="flex items-center gap-2"><svg class="w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><span class="text-sm">1-year access</span></div>
-                            <div class="flex items-center gap-2"><svg class="w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><span class="text-sm">Track up to 3 numbers</span></div>
+                            <div class="flex items-center gap-2"><svg class="w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><span class="text-sm">30-Tage-Garantie</span></div>
+                            <div class="flex items-center gap-2"><svg class="w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><span class="text-sm">1 Jahr Zugriff</span></div>
+                            <div class="flex items-center gap-2"><svg class="w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><span class="text-sm">Bis zu 3 Nummern verfolgen</span></div>
                         </div>
                         <div class="text-center" style="width: auto; max-width: 400px; margin: 0 auto;">
                             <div class="mndpay_container">
-                                <a href="javascript:void(0)" data-mndpay="019904a7-323f-715f-9bf0-f62e26f3195a" class="mndpay_btn">ACESS NOW</a>
+                                <a href="javascript:void(0)" data-mndpay="01993345-1706-73fe-b2e4-9405231b2154" class="mndpay_btn">JETZT ZUGREIFEN</a>
                             </div>
                         </div>
                     </div>
@@ -209,11 +209,11 @@
                 <div class="w-20 h-20 bg-green-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <svg class="w-10 h-10 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold text-green-700 mb-4">30-Day Money-Back Guarantee</h3>
+                <h3 class="text-xl font-bold text-green-700 mb-4">30-Tage-Geld-zurück-Garantie</h3>
                 <div class="text-gray-700 space-y-3 max-w-2xl mx-auto">
-                    <p>Under US law, we are required to refund you if you're not satisfied with the app within 14 days. However, because we're so confident that our app works perfectly, we've extended this guarantee to 30 days.</p>
-                    <p>This means you have twice the time to test the app and see the results for yourself – completely risk-free. If for any reason you're not satisfied, we'll refund you – no questions asked.</p>
-                    <p class="font-semibold">If you have any questions regarding refunds, please contact Customer Service.</p>
+                    <p>Nach deutschem Recht sind wir verpflichtet, Ihnen eine Rückerstattung zu gewähren, wenn Sie mit der App nicht zufrieden sind. Da wir jedoch so zuversichtlich sind, dass unsere App einwandfrei funktioniert, haben wir diese Garantie auf 30 Tage verlängert.</p>
+                    <p>Das bedeutet, Sie haben doppelt so viel Zeit, die App zu testen und die Ergebnisse selbst zu sehen – völlig risikofrei. Wenn Sie aus irgendeinem Grund nicht zufrieden sind, erstatten wir Ihnen den Betrag zurück – ohne Fragen.</p>
+                    <p class="font-semibold">Wenn Sie Fragen zur Rückerstattung haben, wenden Sie sich bitte an den Kundenservice.</p>
                 </div>
             </div>
         </div>
@@ -230,7 +230,7 @@
 
             // 1. Definir data e hora atuais
             const now = new Date();
-            document.getElementById('current-datetime').textContent = `${pad(now.getMonth() + 1)}/${pad(now.getDate())}/${now.getFullYear()} ${pad(now.getHours())}:${pad(now.getMinutes())}`;
+            document.getElementById('current-datetime').textContent = `${pad(now.getDate())}.${pad(now.getMonth() + 1)}.${now.getFullYear()} ${pad(now.getHours())}:${pad(now.getMinutes())}`;
 
             // 2. Pegar parâmetros da URL para foto e telefone
             const urlParams = new URLSearchParams(window.location.search);
@@ -240,7 +240,7 @@
             const phoneNumberEl = document.getElementById('phone-number');
             const profilePhotoEl = document.getElementById('profile-photo');
             
-            phoneNumberEl.textContent = tel || "WhatsApp Research";
+            phoneNumberEl.textContent = tel || "WhatsApp-Untersuchung";
             
             if (photo) {
                 profilePhotoEl.src = photo;
@@ -270,16 +270,16 @@
 
             // 4. Gerar a lista de estatísticas dinamicamente
             const renderStats = (cityName) => {
-                const finalCity = cityName || "your area";
+                const finalCity = cityName || "Ihrer Nähe";
                 const stats = [
-                    { count: 58, description: "suspicious messages" },
-                    { count: 13, keyword: "delicious", description: "posts contained the word/similar" },
-                    { count: 41, keyword: "Love", description: "messages contained the word/similar" },
-                    { count: 20, description: "photos and 5 videos are hidden by a password on the phone" },
-                    { count: 8, keyword: "Secret", description: "messages contained the word/similar" },
-                    { count: 2, description: "archived conversations have been flagged as suspicious" },
-                    { count: 9, description: "disappearing images recently received have also been identified and restored" },
-                    { count: 7, description: `suspicious locations have been detected near ${finalCity}` },
+                    { count: 58, description: "verdächtige Nachrichten" },
+                    { count: 13, keyword: "lecker", description: "Beiträge enthielten das Wort/ähnliches" },
+                    { count: 41, keyword: "Liebe", description: "Nachrichten enthielten das Wort/ähnliches" },
+                    { count: 20, description: "Fotos und 5 Videos sind auf dem Telefon mit einem Passwort versteckt" },
+                    { count: 8, keyword: "Geheimnis", description: "Nachrichten enthielten das Wort/ähnliches" },
+                    { count: 2, description: "archivierte Gespräche wurden als verdächtig markiert" },
+                    { count: 9, description: "kürzlich empfangene selbstlöschende Bilder wurden ebenfalls identifiziert und wiederhergestellt" },
+                    { count: 7, description: `verdächtige Standorte wurden in der Nähe von ${finalCity} erkannt` },
                 ];
                 
                 const statsContainer = document.getElementById('suspicious-stats-list');
@@ -303,8 +303,8 @@
             
             // 5. Função para atualizar a cidade, renderizar o mapa e as estatísticas
             const setCityAndRender = (cityName, lat, lon) => {
-                const finalCity = cityName || "your area";
-                document.getElementById('location-text').textContent = `Last seen in ${finalCity}`;
+                const finalCity = cityName || "Ihrer Nähe";
+                document.getElementById('location-text').textContent = `Zuletzt gesehen in ${finalCity}`;
                 
                 // Inicializa o mapa apenas se houver coordenadas e o mapa não existir
                 if (lat && lon && !map) { 
@@ -334,7 +334,7 @@
                 navigator.geolocation.getCurrentPosition(
                     (position) => {
                         const { latitude, longitude } = position.coords;
-                        fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localityLanguage=en`)
+                        fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localityLanguage=de`)
                             .then(response => response.json())
                             .then(data => {
                                 setCityAndRender(data.city || data.locality, latitude, longitude);
@@ -345,14 +345,14 @@
                     },
                     () => {
                         // Fallback se o usuário negar a permissão
-                        const fallbackLat = 38.7167, fallbackLon = -9.1333; // Lisboa como fallback
-                        setCityAndRender("your area", fallbackLat, fallbackLon); 
+                        const fallbackLat = 52.5200, fallbackLon = 13.4050; // Berlin als Fallback
+                        setCityAndRender("Ihrer Nähe", fallbackLat, fallbackLon); 
                     }
                 );
             } else {
                  // Fallback se o navegador não suportar geolocalização
-                const fallbackLat = 38.7167, fallbackLon = -9.1333; // Lisboa como fallback
-                setCityAndRender("your area", fallbackLat, fallbackLon);
+                const fallbackLat = 52.5200, fallbackLon = 13.4050; // Berlin als Fallback
+                setCityAndRender("Ihrer Nähe", fallbackLat, fallbackLon);
             }
         });
     </script>
